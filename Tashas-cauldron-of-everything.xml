@@ -9,15 +9,13 @@
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/source.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/blob/master/tashas-cauldron-of-everything/source.xml" />
 
 		<!-- archetypes -->
-		<file name="barbarian-ancestralguardian.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/barbarian-ancestralguardian.xml" />
-		<file name="barbarian-stormherald.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/barbarian-stormherald.xml" />
-		<file name="barbarian-zealot.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/barbarian-zealot.xml" />
-		<file name="bard-glamour.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/bard-glamour.xml" />
-		<file name="bard-swords.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/bard-swords.xml" />
-		<file name="bard-whispers.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/bard-whispers.xml" />	
+		<file name="barbarian-wildmagic.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/barbarian-ancestralguardian.xml" />
+		<file name="barbarian-beast.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/barbarian-stormherald.xml" />
+		<file name="bard-creation.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/bard-glamour.xml" />
+		<file name="bard-eloquence.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/bard-swords.xml" />
 		<file name="cleric-forgedomain.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/cleric-forgedomain.xml" />
 		<file name="cleric-gravedomain.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/cleric-gravedomain.xml" />
 		<file name="druid-dreams.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/druid-dreams.xml" />
