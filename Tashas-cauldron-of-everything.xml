@@ -13,7 +13,7 @@
 
 		<!-- archetypes -->
 		<file name="barbarian-wildmagic.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/blob/master/tashas-cauldron-of-everything/barbarian-wildmagic.xml" />
-		<file name="barbarian-beast.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/barbarian-stormherald.xml" />
+		<file name="barbarian-beast.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/blob/master/tashas-cauldron-of-everything/barbarian-beast.xml" />
 		<file name="bard-creation.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/bard-glamour.xml" />
 		<file name="bard-eloquence.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/bard-swords.xml" />
 		<file name="cleric-forgedomain.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/cleric-forgedomain.xml" />
