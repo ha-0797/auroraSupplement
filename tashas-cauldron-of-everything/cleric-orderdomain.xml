@@ -3,9 +3,10 @@
 	<info>
 		<name>Order Domain</name>
 		<update version="0.0.5">
-			<file name="cleric-order.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/cleric-order.xml" />
+			<file name="cleric-order.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/cleric-orderdomain.xml" />
 		</update>
 	</info>
+
 	<element name="Order Domain" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_CLERIC_ORDER_DOMAIN">
         <supports>Divine Domain</supports>
         <description>
