@@ -1,26 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <element name="Path of the Wild Soul" type="Archetype" source="Tasha's Wild Soul" id="ID_WOTC_UA_ARCHETYPE_PATH_OF_THE_WILD_SOUL_TASHA">
+    <info>
+        <name>Path of Wild Magic</name>
+        <update version="0.0.5">
+            <file name="barbarian-wildmagic.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/barbarian-wildmagic.xml" />
+        </update>
+    </info>
+
+    <element name="Path of the Wild Soul" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_PATH_OF_THE_WILD_MAGIC">
         <supports>Primal Path</supports>
         <description>
             <p>Many places in the multiverse abound with beauty, intense emotion, and rampant magic; the Feywild, the Upper Planes, and other realms of supernatural power radiate with such forces and can profoundly influence people. As folk of deep feeling, barbarians are especially susceptible to these wild influences, with some barbarians being transformed by the magic. These magic-suffused barbarians walk the Path of Wild Magic. Elf, tiefling, aasimar, and genasi barbarians often seek this path, eager to manifest the otherworldly magic of their ancestors.</p>
-            <div element="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_MAGICAL_AWARENESS" />
-            <div element="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_WILD_SURGE" />
-            <div element="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_BOLSTERING_MAGIC" />
-            <div element="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_UNSTABLE_BACKLASH" />
-            <div element="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_CONTROLLED_SURGE" />
+            <div element="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_MAGICAL_AWARENESS" />
+            <div element="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_WILD_SURGE" />
+            <div element="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_BOLSTERING_MAGIC" />
+            <div element="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_UNSTABLE_BACKLASH" />
+            <div element="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_CONTROLLED_SURGE" />
         </description>
         <sheet>
             <description></description>
         </sheet>
         <rules>
-            <grant type="Archetype Feature" id="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_MAGICAL_AWARENESS" level="3" />
-            <grant type="Archetype Feature" id="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_WILD_SURGE" level="3" />
-            <grant type="Archetype Feature" id="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_BOLSTERING_MAGIC" level="6" />
-            <grant type="Archetype Feature" id="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_UNSTABLE_BACKLASH" level="10" />
-            <grant type="Archetype Feature" id="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_CONTROLLED_SURGE" level="14" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_MAGICAL_AWARENESS" level="3" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_WILD_SURGE" level="3" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_BOLSTERING_MAGIC" level="6" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_UNSTABLE_BACKLASH" level="10" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_CONTROLLED_SURGE" level="14" />
         </rules>
     </element>
-    <element name="Magical Awareness" type="Archetype Feature" source="Unearthed Arcana: Barbarian and Monk" id="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_MAGICAL_AWARENESS">
+    <element name="Magical Awareness" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_MAGICAL_AWARENESS">
         <description>
             <p>As an action, you can open your awareness to the presence of concentrated magic. Until the end of your next turn, you know the location of any spell or magic item within 60 feet of you that isn't behind total cover. When you sense a spell, you learn which school of magic it belongs to.</p>
             <p class="indent">You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
@@ -32,7 +40,7 @@
             <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
         </rules>
     </element>
-    <element name="Wild Surge" type="Archetype Feature" source="Unearthed Arcana: Barbarian and Monk" id="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_WILD_SURGE">
+    <element name="Wild Surge" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_WILD_SURGE">
         <description>
             <p>The magical energy roiling inside you sometimes erupts from you. When you enter your rage, roll on the Wild Magic table to determine the magical effect produced</p>
             <p class="indent">If the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier</p>
@@ -68,7 +76,7 @@
             <stat name="wild surge:dc" value="constitution:modifier" />
         </rules>
     </element>
-    <element name="Bolstering Magic" type="Archetype Feature" source="Unearthed Arcana: Barbarian and Monk" id="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_BOLSTERING_MAGIC">
+    <element name="Bolstering Magic" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_BOLSTERING_MAGIC">
         <description>
             <p>You can harness your wild magic to bolster yourself or a companion. As an action, you can touch one creature (which can be yourself) and confer one of the following benefits of your choice to that creature:.</p>
             <ul>
@@ -84,7 +92,7 @@
             <description>Touch a creature. For 10 minutes, the creature can roll a d3 whenever making an attack roll or an ability check and add the number rolled to the d20 roll.</description>
         </sheet>
     </element>
-    <element name="Unstable Backlash" type="Archetype Feature" source="Unearthed Arcana: Barbarian and Monk" id="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_UNSTABLE_BACKLASH">
+    <element name="Unstable Backlash" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_UNSTABLE_BACKLASH">
         <description>
             <p>At 10th level, the magic crackling within your soul lashes out. When a creature forces you to make a saving throw while you are raging, you can use your reaction to deal 3d6 force damage to that creature.</p>
         </description>
@@ -92,7 +100,7 @@
             <description>Immediately after you take damage or fail a saving throw while raging, roll on the Wild Magic table and immediately produce the effect rolled. This effect replaces your current Wild Magic effect.</description>
         </sheet>
     </element>
-    <element name="Controlled Surge" type="Archetype Feature" source="Unearthed Arcana: Barbarian and Monk" id="ID_WOTC_UA_WILD_SOUL_TASHA_ARCHETYPE_FEATURE_CONTROLLED_SURGE">
+    <element name="Controlled Surge" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_WILD_MAGIC_ARCHETYPE_FEATURE_CONTROLLED_SURGE">
         <description>
             <p>Whenever you roll on the Wild Magic table, you can roll the die twice and choose which of the two effects to unleash. If you roll the same number on both dice, you can ignore the number and choose any effect on the table..</p>
         </description>
