@@ -19,14 +19,13 @@
 		<file name="cleric-orderdomain.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/cleric-orderdomain.xml" />
 		<file name="cleric-peacedomain.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/cleric-peacedomain.xml" />
 		<file name="cleric-twilightdomain.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/cleric-twilightdomain.xml" />
-		<file name="druid-dreams.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/druid-dreams.xml" />
-		<file name="druid-shepherd.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/druid-shepherd.xml" />
-		<file name="fighter-arcanearcher.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/fighter-arcanearcher.xml" />
-		<file name="fighter-cavalier.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/fighter-cavalier.xml" />
-		<file name="fighter-samurai.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/fighter-samurai.xml" />
-		<file name="monk-drunkenmaster.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/monk-drunkenmaster.xml" />
-		<file name="monk-kensei.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/monk-kensei.xml" />
-		<file name="monk-sunsoul.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/monk-sunsoul.xml" />
+		<file name="druid-wildfire.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/druid-wildfire.xml" />
+		<file name="druid-spores.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/druid-spores.xml" />
+		<file name="druid-stars.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/druid-stars.xml" />
+		<file name="fighter-psiwarrior.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/fighter-psiwarrior.xml" />
+		<file name="fighter-runeknight.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/fighter-runeknight.xml" />
+		<file name="monk-mercy.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/monk-mercy.xml" />
+		<file name="monk-astral.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/monk-astral.xml" />
 		<file name="paladin-conquest.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/paladin-conquest.xml" />
 		<file name="paladin-redemption.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/paladin-redemption.xml" />
 		<file name="ranger-gloomstalker.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/ranger-gloomstalker.xml" />
