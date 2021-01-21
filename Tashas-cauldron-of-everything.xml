@@ -28,9 +28,8 @@
 		<file name="monk-astral.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/monk-astral.xml" />
 		<file name="paladin-heroism.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/paladin-heroism.xml" />
 		<file name="paladin-watchers.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/paladin-watchers.xml" />
-		<file name="ranger-gloomstalker.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/ranger-gloomstalker.xml" />
-		<file name="ranger-horizonwalker.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/ranger-horizonwalker.xml" />
-		<file name="ranger-monsterslayer.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/ranger-monsterslayer.xml" />
+		<file name="ranger-feywanderer.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/paladin-feywanderer.xml" />
+		<file name="ranger-swarmkeeper.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/paladin-swarmkeeper.xml" />
 		<file name="rogue-inquisitive.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/rogue-inquisitive.xml" />
 		<file name="rogue-mastermind.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/rogue-mastermind.xml" />
 		<file name="rogue-scout.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/rogue-scout.xml" />
