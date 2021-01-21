@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Circle of Stars</name>
+		<update version="0.0.5">
+			<file name="druid-stars.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/druid-stars.xml" />
+		</update>
+	</info>
+	<element name="Rune Knight" type="Archetype" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_RUNE_KNIGHT">
+        <supports>Martial Archetype</supports>
+        <description>
+            <p>Rune Knights enhance their martial prowess using the supernatural power of runes, an ancient practice that originated with giants. Rune cutters can be found among any family of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant's work carved into a hill or cave, learned of the runes from a sage, or met the giant in person, you studied the giant's craft and learned how to apply magic runes to empower your equipment.</p>
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_BONUS_PROFICIENCIES" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_CARVER" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_GIANTS_MIGHT" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNIC_SHIELD" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_GREAT_STATURE" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_MASTER_OF_RUNES" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNIC_JUGGERNAUT" />
+        </description>
+        <sheet display="false">
+            <description>You discovered how to enhance your martial prowess using the supernatural power of runes.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_BONUS_PROFICIENCIES" level="3" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_CARVER" level="3" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_GIANTS_MIGHT" level="3" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNIC_SHIELD" level="7" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_GREAT_STATURE" level="10" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_MASTER_OF_RUNES" level="15" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNIC_JUGGERNAUT" level="18" />
+        </rules>
+    </element>
+    <element name="Bonus Proficiencies" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_BONUS_PROFICIENCIES">
+        <description>
+            <p><em>3rd-level Rune Knight feature</em></p>
+            <p>You gain proficiency with smith’s tools, and you learn to speak, read, and write Giant.</p>
+        </description>
+        <sheet display="false">
+            <description>You gain proficiency with smith’s tools, and you learn to speak, read, and write Giant.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
+            <grant type="Language" id="ID_LANGUAGE_GIANT" />
+        </rules>
+    </element>
+    <element name="Rune carver" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_CARVER">
+        <description>
+            <p><em>3rd-level Rune Knight feature</em></p>
+            <p>You can use magic runes to enhance your gear. You learn two runes of your choice, from among the runes described below, and each time you gain a level in this class, you can replace one rune you know with a different one from this feature. When you reach certain levels in this class, you learn additional runes, as shown in the Runes Known table.</p>
+            <p class="indent">Whenever you finish a long rest, you can touch a number of objects equal to the number of runes you know, and you inscribe a different rune onto each of the objects. To be eligible, an object must be a weapon, a suit of armor, a shield, a piece of jewelry, or something else you can wear or hold in a hand. Your rune remains on an object until you finish a long rest, and an object can bear only one of your runes at a time.</p>
+            <p class="indent">Your rune remains on an object until you finish a long rest, and an object can bear only one of your runes.</p>
+            <p class="indent">Each time you gain a level in this class, you can replace one rune you know with a different one.</p>
+            <p>If a rune requires a saving throw, your Rune Magic save DC equals 8 + your proficiency bonus + your Intelligence modifier.</p>
+        </description>
+        <sheet usage="{{rune knight:rune magic:usage}}/Long Rest">
+            <description>You learn how to inscribe runes on weapons, armor, or shields. An object can bear only one of your runes.</description>
+            <description level="15" usage="{{rune knight:rune magic:usage}}/Short Rest">You learn how to inscribe runes on weapons, armor, or shields. An object can bear only one of your runes.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Rune Option, Rune Magic" supports="UA Rune Magic Option" number="2" />
+            <stat name="rune knight:rune magic:dc" value="8" />
+            <stat name="rune knight:rune magic:dc" value="proficiency" />
+            <stat name="rune knight:rune magic:dc" value="intelligence:modifier" />
+            <stat name="rune knight:rune magic:usage" value="2" bonus="base" />
+        </rules>
+    </element>
+    <element name="Giant Might" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_GIANTS_MIGHT">
+        <description>
+            <p><em>3rd-level Rune Knight feature</em></p>
+            <p>You can imbue yourself with the might of giants. As a bonus action, you magically gain the following benefits, which last for 1 minute:</p>
+            <ul>
+                <li>If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn’t change.</li>
+                <li>You have advantage on Strength checks and Strength saving throws.</li>
+                <li>Your weapon attacks deal an extra 1d6 damage.</li>
+            </ul>
+            <p class="indent">You can use this feature twice, and you regain all expended uses of it when you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="2/Long Rest">
+            <description>You magically gain the following benefits, which last for 1 minute:
+            If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn’t change.
+            You have advantage on Strength checks and Strength saving throws.
+            Your weapon attacks deal an extra 1d6 damage.</description>
+            <description level="10">You magically gain the following benefits, which last for 1 minute:
+            If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn’t change.
+            You have advantage on Strength checks and Strength saving throws.
+            Your weapon attacks deal an extra 1d8 damage.</description>
+        </sheet>
+    </element>
+    <element name="Defensive Runes" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNIC_SHIELD">
+        <description>
+            <p><em>7th-level Rune Knight feature</em></p>
+            <p>You learn to invoke your rune magic to protect your allies. When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to grant a bonus to the creature’s AC against that attack. The bonus equals 1 + your Intelligence modifier (minimum of +2).</p>
+            <p class="indent">In addition, you learn one new rune of your choice from the Rune Magic feature (for a total of three).</p>
+        </description>
+        <sheet action="Reaction">
+            <description>When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to grant a +{{defensive runes:bonus}} bonus to the creature’s AC against that attack.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Rune Option, Defensive Runes" supports="UA Rune Magic Option" />
+            <stat name="defensive runes:bonus" value="2" bonus="base" />
+            <stat name="defensive runes:bonus" value="intelligence:modifier" bonus="base" />
+            <stat name="rune knight:rune magic:usage" value="3" bonus="base" />
+        </rules>
+    </element>
+    <element name="Great Stature" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_GREAT_STATURE">
+        <description>
+            <p><em>10th-level Rune Knight feature</em></p>
+            <p>The magic of your runes permanently alters you. When you gain this feature, roll 3d4. You grow a number of inches in height equal to the roll. Moreover, the extra damage you deal with your Giant Might feature increases to 1d8.</p>
+            <p class="indent">In addition, you learn one new rune of your choice from your Rune Magic feature (for a total of four).</p>
+        </description>
+        <sheet>
+            <description>You grow 3d4 inches in height.
+            The extra damage you deal with your Giant Might feature increases to 1d8.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Rune Option, Great Stature" supports="UA Rune Magic Option" />
+            <stat name="rune knight:rune magic:usage" value="4" bonus="base" />
+        </rules>
+    </element>
+    <element name="Rune Magic Mastery" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_MASTER_OF_RUNES">
+        <description>
+            <p><em>15th-level Rune Knight feature</em></p>
+            <p>You can invoke each rune you know from your Rune Magic feature twice, rather than once, and you regain all expended uses when you finish a short or long rest.</p>
+            <p class="indent">In addition, you learn one new rune of your choice from the Rune Magic feature (for a total of five).</p>
+        </description>
+        <sheet>
+            <description>You can invoke each rune you know from your Rune Magic feature twice, rather than once, and you regain all expended uses when you finish a short or long rest.</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Rune Option, Rune Magic Mastery" supports="UA Rune Magic Option" />
+            <stat name="rune knight:rune magic:usage" value="5" bonus="base" />
+        </rules>
+    </element>
+    <element name="Blessing of the All Father" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNIC_JUGGERNAUT">
+        <description>
+            <p><em>18th-level Rune Knight feature</em></p>
+            <p>You learn how to share your rune magic with your allies. When you use your Giant Might feature, you can choose one willing creature you can see within 60 feet of you. The chosen creature also gains the benefits of your Giant Might feature.</p>
+        </description>
+        <sheet>
+            <description>When you use your Giant Might feature, you can choose one willing creature you can see within 60 feet of you. The chosen creature also gains the benefits of your Giant Might feature.</description>
+        </sheet>
+    </element>
+    <element name="Haug (Hill Rune)" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_CARVER_HAUG">
+        <supports>UA Rune Magic Option</supports>
+        <description>
+            <p>This rune’s magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object inscribed with this rune, you have advantage on saving throws against being poisoned, and you have resistance against poison damage.</p>
+            <p class="indent">In addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>You have advantage on saving throws against being poisoned, and you have resistance against poison damage.
+            In addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute.</description>
+        </sheet>
+    </element>
+    <element name="Ild (Fire Rune)" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_CARVER_ILD">
+        <supports>UA Rune Magic Option</supports>
+        <description>
+            <p>This rune’s magic channels the masterful craftsmanship of fire giant smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.</p>
+            <p class="indent">In addition, when you hit a creature with a weapon attack, you can invoke the rune to summon fiery shackles: the target must succeed on a Strength saving throw or be restrained for 1 minute. While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>Your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.
+            In addition, when you hit a creature with a weapon attack, you can invoke the rune to summon fiery shackles: the target must succeed on a DC {{rune knight:rune magic:dc}} Strength saving throw or be restrained for 1 minute. While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success.</description>
+        </sheet>
+    </element>
+    <element name="Ise (Frost Rune)" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_CARVER_ISE">
+        <supports>UA Rune Magic Option</supports>
+        <description>
+            <p>This rune’s magic evokes a frost giant’s stoic calm. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Animal Handling) checks and Charisma (Intimidation) checks.</p>
+            <p class="indent">In addition, you can invoke the rune as a bonus action to increase your Strength score by 2 for 10 minutes. This increase can cause your score to exceed 20, but not 30. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>You have advantage on Animal Handling checks and Intimidation checks.
+            In addition, you can invoke the rune as a bonus action to increase your Strength score by 2 for 10 minutes. This increase can cause your score to exceed 20, but not 30.</description>
+        </sheet>
+    </element>
+    <element name="Skye (Cloud Rune)" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_CARVER_SKYE">
+        <supports>UA Rune Magic Option</supports>
+        <description>
+            <p>This rune’s magic emulates the deceptiveness of a cloud giant. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks.</p>
+            <p class="indent">In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and cause that attack to target a different creature within 30 feet of you (other than the attacker), using the same roll. This magic can transfer the attack regardless of the attack’s range. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>You have advantage on Sleight of Hand checks and Deception checks.
+            In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and cause that attack to target a different creature within 30 feet of you (other than the attacker), using the same roll. This magic can transfer the attack regardless of the attack’s range.</description>
+        </sheet>
+    </element>
+    <element name="Stein (Stone Rune)" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_CARVER_STEIN">
+        <supports>UA Rune Magic Option</supports>
+        <description>
+            <p>This rune’s magic channels the insightfulness of a stone giant. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Insight) checks, and you have darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.</p>
+            <p class="indent">In addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is charmed by you for 1 minute. While charmed in this way, the creature has a speed of 0 and is incapacitated, descending into a dreamy stupor. The effect ends if the charmed creature takes any damage or if someone else uses an action to shake the creature out of its haze. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>You have advantage on Insight checks, and you have darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.
+            In addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is charmed by you for 1 minute. While charmed in this way, the creature has a speed of 0 and is incapacitated, descending into a dreamy stupor. The effect ends if the charmed creature takes any damage or if someone else uses an action to shake the creature out of its haze.</description>
+        </sheet>
+    </element>
+    <element name="Uvar (Storm Rune)" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_CARVER_UVAR">
+        <supports>UA Rune Magic Option</supports>
+        <description>
+            <p>Using this rune, you can glimpse the future like a storm giant. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence (Arcana) checks, and you can’t be surprised as long as you are not incapacitated.</p>
+            <p class="indent">In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you’re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>You have advantage on Arcana checks, and you can’t be surprised as long as you are not incapacitated.
+            In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you’re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage.</description>
+        </sheet>
+    </element>
+</elements>
