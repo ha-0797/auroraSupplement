@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Circle of Stars</name>
+		<update version="0.0.5">
+			<file name="druid-stars.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/druid-stars.xml" />
+		</update>
+	</info>
+	<element name="Way of the Astral Self" type="Archetype" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_WAY_OF_THE_ASTRAL_SELF">
+        <supports>Monastic Tradition</supports>
+        <description>
+            <p>A monk who follows the Way of the Astral Self believes their body is an illusion. They see their ki as a representation of their true form, an astral self. This astral self has the capacity to be a force of order or disorder, with some monasteries training students to use their power to protect the weak and other instructing aspirants in how to manifest their rue selves in service to the mighty.</p>
+            <div element="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_ARMS_OF_THE_ASTRAL_SELF" />
+            <div element="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_VISAGE_OF_THE_ASTRAL_SELF" />
+            <div element="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_BODY_OF_THE_ASTRAL_SELF" />
+            <div element="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_AWAKENED_ASTRAL_SELF" />
+        </description>
+        <sheet>
+            <description>Monks of the Way of the Astral Self have an internal struggle with their ki.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_ARMS_OF_THE_ASTRAL_SELF" level="3" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_VISAGE_OF_THE_ASTRAL_SELF" level="6" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_BODY_OF_THE_ASTRAL_SELF" level="11" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_AWAKENED_ASTRAL_SELF" level="17" />
+        </rules>
+    </element>
+    <element name="Arms of the Astral Self" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_ARMS_OF_THE_ASTRAL_SELF">
+        <description>
+            <p>At 3rd level, your mastery of your ki allows you to summon a portion of your astral self. On your turn, you can spend 2 ki points as a bonus action to summon the arms of your astral self for 10 minutes. These spectral arms hover near your shoulders. You determine the arms’ appearance based on the qualities of your character.</p>
+            <p class="indent">While your astral arms are summoned, you gain the following benefits:</p>
+            <ul>
+            <li>You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.</li>
+            <li>The arms are monk weapons and have a reach of 10 feet. The arms deal radiant or necrotic damage (your choice). When you attack with the arms, you can use your Wisdom modifier instead of your Strength or Dexterity modifier for the attack and damage rolls.</li>
+            <li>Immediately after you use the Attack action with your astral arms on your turn, you can make one extra attack with your astral arms as a bonus action. The number of extra attacks increases when you reach certain levels in this class, increasing to two at 11th level and three at 17th level.</li>
+            </ul>
+        </description>
+        <sheet action="Bonus Action">
+            <description>For 2 Ki points you can summon Astral Arms for the next 10 minutes. With these arms you can use your wisdom modifier instead of strength when making strength checks and saving throws. The arms are Monk weapons and have a reach of 10 ft. dealing radiant or necrotic damage, you can use your wisdom modifier for attacks made with the arms. When you attack with your arms you can use a bonus action to attack again.</description>
+            <description level="11">For 2 Ki points you can summon Astral Arms for the next 10 minutes. With these arms you can use your wisdom modifier instead of strength when making strength checks and saving throws. The arms are Monk weapons and have a reach of 10 ft. dealing radiant or necrotic damage, you can use your wisdom modifier for attacks made with the arms. When you attack with your arms you can use a bonus action to attack again twice.</description>
+            <description level="17">For 2 Ki points you can summon Astral Arms for the next 10 minutes. With these arms you can use your wisdom modifier instead of strength when making strength checks and saving throws. The arms are Monk weapons and have a reach of 10 ft. dealing radiant or necrotic damage, you can use your wisdom modifier for attacks made with the arms. When you attack with your arms you can use a bonus action to attack again three times.</description>
+        </sheet>
+    </element>
+    <element name="Visage of the Astral Self" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_VISAGE_OF_THE_ASTRAL_SELF">
+        <description>
+            <p>Starting at 6th level, you can summon the visage of your astral self. On your turn, you can spend 1 ki point as a bonus action, or as part of summoning your astral arms, to summon this visage for 10 minutes. The spectral visage covers your face like a helmet or mask. You determine its appearance based on the qualities of your character.</p>
+            <p class="indent">While your visage is summoned, you gain the following benefits.</p>
+            <ul>
+            <li><b>Wisdom of the Spirit. </b>You have advantage on Wisdom (Insight) and Charisma (Intimidation) checks.</li>
+            <li><b>Astral Sight. </b>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</li>
+            </ul>
+        </description>
+        <sheet action="Bonus Action">
+            <description>You can spend 1 Ki point to summon a visage for 10 minutes that grants you advantage on Insight and Intimidation checks, and also giving you vision in magical and nonmagical darkness for up to 120 feet. This can be summoned at the same time as the Arms of the Astral Self.</description>
+        </sheet>
+    </element>
+    <element name="Awakening of the Astral Self" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_BODY_OF_THE_ASTRAL_SELF">
+        <description>
+            <p>Starting at 11th level, you tap into the greater power of your astral self. While you have both your astral arms and visage summoned, you gain the following benefits.</p>
+            <ul>
+            <li><b>Deflect Energy. </b>When you take acid, cold, fire, lightning, or force damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by 1d10 + your Wisdom modifier + your monk level.</li>
+            <li><b>Empowered Arms. </b>Once on each of your turns when you hit a target with your astral arms, you can deal extra damage to the target equal to your Martial Arts die.</li>
+            <li><b>Word of the Sprit. </b>When you speak through your visage, you can direct your words to a creature of your choice that you can see within 30 feet of you, making it so only that creature can hear you. Alternatively, you can amplify your voice so that all creatures within 600 feet can hear you.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>When you have both your Astral Arms and Astral Visage summoned you gain additional benefits. When you take acid, cold, fire, lightning or force damage you can use your reaction to reduce it by 1d10 + {{astral:energy deflect}}. Once per turn when you hit a target with your astral arms you can deal {{martial arts:dice}} extra damage. When you speak through your Visage you can either direct your words towards a creature within 30 feet or allow all creatures within 600ft to hear you.</description>
+        </sheet>
+        <rules>
+            <stat name="astral:energy deflect" value="level:monk" />
+            <stat name="astral:energy deflect" value="wisdom:modifier" />
+        </rules>
+    </element>
+    <element name="Complete Astral Self" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ASTRAL_SELF_ARCHETYPE_FEATURE_AWAKENED_ASTRAL_SELF">
+        <description>
+            <p>Starting at 17th level, your connection to your astral self is complete, allowing you summon it entirely. On your turn, you can spend 10 ki points as a bonus action to summon the arms, visage, and body of your astral self for 10 minutes. This spectral body covers your physical form like a suit of armor, connecting with the arms and visage. You determine its appearance based on the qualities of your character.</p>
+            <p class="indent">While your astral self is summoned, you gain the following benefits.</p>
+            <ul>
+            <li><b>Armor of the Spirit. </b>You gain a +2 bonus to AC while you aren’t incapacitated.</li>
+            <li><b>Astral Barrage. </b>Whenever you use the Extra Attack feature to attack twice, you can instead attack three times using your astral arms.</li>
+            <li><b>Ki Consumption. </b>When a creature within 10 feet of you is reduced to 0 hit points, you can use your reaction to regain ki points equal to your Wisdom modifier (minimum 1).</li>
+            </ul>
+        </description>
+        <sheet action="Bonus Action">
+            <description>You can spend 10 Ki points to summon your Astral Arms, Visage and Body for the next 10 minutes. When you do this you gain the following benefits. +2 to AC. When you use extra attack with your Astral Arms you can attack 3 times instead. When a creature within 10 ft. of you is reduced to 0 HP you can use your reaction to regain {{wisdom:modifier}} Ki points.</description>
+        </sheet>
+    </element>
+</elements>
