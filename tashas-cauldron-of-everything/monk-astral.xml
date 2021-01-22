@@ -81,8 +81,9 @@
             <p>Your connection to your astral self is complete, allowing you to unleash its full potential. As a bonus action, you can spend 5 ki points to summon the arms, visage, and body of your astral self and awaken it for 10 minutes. This awakening ends early if you are incapacitated or die.</p>
             <p class="indent">While your astral self is summoned, you gain the following benefits.</p>
             <ul>
-            <li><b>Armor of the Spirit. </b>You gain a +2 bonus to AC while you aren’t incapacitated.</li>
-            <li><b>Astral Barrage. </b>Whenever you use the Extra Attack feature to attack twice, you can instead attack three times using your astral arms.</li>
+                <li><b>Armor of the Spirit. </b>You gain a +2 bonus to AC while you aren’t incapacitated.</li>
+                <li><b>Astral Barrage. </b>Whenever you use the Extra Attack feature to attack twice, you can instead attack three times using your astral arms.</li>
+            </ul>
         </description>
         <sheet action="Bonus Action">
             <description>You can spend 5 Ki points to summon your Astral Arms, Visage and Body for the next 10 minutes. When you do this you gain the following benefits. +2 to AC. When you use extra attack with your Astral Arms you can attack 3 times instead.</description>
