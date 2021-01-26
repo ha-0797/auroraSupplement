@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<element name="Fey Wanderer" type="Archetype" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_RANGER_FEY_WANDERER">
+	<element name="Fey Wanderer" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_RANGER_FEY_WANDERER">
 		<supports>Ranger Archetype</supports>
 		<description>
 			<p>A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Wanderer, a ranger who represents both the mortal and the fey realms. As you wander the multiverse, your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.</p>
@@ -41,7 +41,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_MISTY_WANDERER" level="15" />
 		</rules>
 	</element>
-	<element name="Dreadful Strikes" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_DREADFUL_STRIKES">
+	<element name="Dreadful Strikes" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_DREADFUL_STRIKES">
 		<description>
 			<p><em>3rd-level Fey Wanderer feature</em></p>
 			<p>You can augment your weapon strikes with mind-scarring magic, drawn from the gloomy hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 psychic damage to the target, which can take this extra damage only once per turn.</p>
@@ -51,7 +51,7 @@
 			<description> When you hit a creature with a weapon, you can deal an extra 1d4 psychic damage to the target, which can take this extra damage only once per turn.</description>
 		</sheet>
 	</element>
-	<element name="Fey Wanderer Magic" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_FEY_WANDERER_MAGIC">
+	<element name="Fey Wanderer Magic" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_FEY_WANDERER_MAGIC">
 		<description>
 			<p><em>3rd-level Fey Wanderer feature</em></p>
 			<p>You learn an additional spell when you reach certain levels in this class, as shown in the Fey Wanderer Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.</p>
@@ -78,7 +78,7 @@
             <grant type="Spell" id="ID_PHB_SPELL_MISLEAD" spellcasting="Ranger" level="17" />
         </rules>
 	</element>
-	<element name="Otherwoirdly Glamour" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_OTHERWORLDLY_GLMAOUR">
+	<element name="Otherwoirdly Glamour" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_OTHERWORLDLY_GLMAOUR">
 		<description>
 			<p><em>3rd-level Fey Wanderer feature</em></p>
 			<p>Your fey qualities give you a supernatural charm. As a result, whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1).</p>
@@ -91,7 +91,7 @@
 			<select type="Proficiency" name="Skill Proficiency, Cunning Will" supports="ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION" />
 		</rules>
 	</element>
-	<element name="Beguiling Twist" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_BEGUILING_TWIST">
+	<element name="Beguiling Twist" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_BEGUILING_TWIST">
 		<description>
 			<p><em>7th-level Fey Wanderer feature</em></p>
 			<p>The magic of the Feywild guards your mind. You have advantage on saving throws against being charmed or frightened.</p>
@@ -103,7 +103,7 @@
 			</description>
 		</sheet>
 	</element>
-	<element name="Fey Reinforcements" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_FEY_REINFORCEMENTS">
+	<element name="Fey Reinforcements" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_FEY_REINFORCEMENTS">
 		<description>
 			<p><em>11th-level Fey Wanderer feature</em></p>
 			<p>The royal courts of the Feywild have blessed you with the assistance of fey beings: you know summon fey. It doesn't count against the number of ranger spells you know, and you can cast it without a material component. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest.</p>
@@ -116,7 +116,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SUMMON_FEY" spellcasting="Ranger" />
 		</rules>
 	</element>
-	<element name="Misty Wanderer" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_MISTY_WANDERER">
+	<element name="Misty Wanderer" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_FEY_WANDERER_MISTY_WANDERER">
 		<description>
 			<p><em>15th-level Fey Wanderer feature</em></p>
 			<p>You can slip in and out of the Feywild to move in a blink of an eye: you can cast misty step without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.</p>

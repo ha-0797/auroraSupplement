@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Items</name>
+		<update version="0.0.7">
+			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/items.xml" />
+		</update>
+	</info>
+
+	<element name="Armor of Gleaming" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ALL_PURPOSE_Wandrous Item_OF_GLEAMINGT">		
+		<description>
+			<p>This armor never gets dirty.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any medium or heavy">Armor</set> 
+			<set name="rarity">Common</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+			<set name="name-format">{{parent}} of Gleaming</set>
+		</setters>
+	</element>
+	<element name="Bead of Nourishment" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BEAD_OF_NOURISHMENT">		
+		<description>
+			<p>This spongy, flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of rations.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Bead of Nourishment" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BEAD_OF_NOURISHMENT">		
+		<description>
+			<p>This spongy, flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of rations.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="All-Purpose Tool, +1" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ALL_PURPOSE_TOOL Item_1">
+		<description>
+			<p>This simple screwdriver can transform into a variety of Wandrous Items; as an action, you can touch the item and transform it into any type of artisan's Wandrous Item of your choice (see the "Equipment" chapter in the Player's Handbook for a list of artisan's Wandrous Items). Whatever form the Wandrous Item takes, you are proficient with it.</p>
+			<p class="indent">While holding this Wandrous Item, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.</p>
+			<p class="indent">As an action, you can focus on the Wandrous Item to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement" addition="by an artificer">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+			<stat name="spellcasting:dc" value="1" />
+		</rules>
+	</element>
+	<element name="All-Purpose Tool, +2" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ALL_PURPOSE_TOOL_2">
+		<description>
+			<p>This simple screwdriver can transform into a variety of Wandrous Items; as an action, you can touch the item and transform it into any type of artisan's Wandrous Item of your choice (see the "Equipment" chapter in the Player's Handbook for a list of artisan's Wandrous Items). Whatever form the Wandrous Item takes, you are proficient with it.</p>
+			<p class="indent">While holding this Wandrous Item, you gain a +2 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.</p>
+			<p class="indent">As an action, you can focus on the Wandrous Item to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="attunement" addition="by an artificer">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" />
+			<stat name="spellcasting:dc" value="2" />
+		</rules>
+	</element>
+	<element name="All-Purpose Tool, +3" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ALL_PURPOSE_TOOL_3">
+		<description>
+			<p>This simple screwdriver can transform into a variety of Wandrous Items; as an action, you can touch the item and transform it into any type of artisan's Wandrous Item of your choice (see the "Equipment" chapter in the Player's Handbook for a list of artisan's Wandrous Items). Whatever form the Wandrous Item takes, you are proficient with it.</p>
+			<p class="indent">While holding this Wandrous Item, you gain a +3 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.</p>
+			<p class="indent">As an action, you can focus on the Wandrous Item to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">1</set>
+			<set name="attunement" addition="by an artificer">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" />
+			<stat name="spellcasting:dc" value="3" />
+		</rules>
+	</element>
+	<element name="Amulet of the Devout, +1" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_AMULET_OF_THE_DEVOUT_1">
+		<description>
+			<p>This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your spells.</p>
+			<p class="indent">While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement" addition="by an artificer">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+			<stat name="spellcasting:dc" value="1" />
+		</rules>
+	</element>
+	<element name="Amulet of the Devout, +2" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_AMULET_OF_THE_DEVOUT_2">
+		<description>
+			<p>This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your spells.</p>
+			<p class="indent">While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement" addition="by an artificer">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+			<stat name="spellcasting:dc" value="1" />
+		</rules>
+	</element>
+	<element name="Amulet of the Devout, +1" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_AMULET_OF_THE_DEVOUT_1">
+		<description>
+			<p>This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your spells.</p>
+			<p class="indent">While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">neck</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement" addition="by an cleric or paladin">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+			<stat name="spellcasting:dc" value="1" />
+		</rules>
+	</element>
+	<element name="Amulet of the Devout, +2" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_AMULET_OF_THE_DEVOUT_2">
+		<description>
+			<p>This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +2 bonus to spell attack rolls and the saving throw DCs of your spells.</p>
+			<p class="indent">While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">neck</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">2</set>
+			<set name="attunement" addition="by an cleric or paladin">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" />
+			<stat name="spellcasting:dc" value="2" />
+		</rules>
+	</element>
+	<element name="Amulet of the Devout, +3" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_AMULET_OF_THE_DEVOUT_3">
+		<description>
+			<p>This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +3 bonus to spell attack rolls and the saving throw DCs of your spells.</p>
+			<p class="indent">While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">neck</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="attunement" addition="by an cleric or paladin">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" />
+			<stat name="spellcasting:dc" value="3" />
+		</rules>
+	</element>
+	<element name="Arcane Grimoire, +1" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ARCANE_GRIMOIRE_1">
+		<description>
+			<p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.</p>
+			<p class="indent">You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement" addition="by a wizard">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+			<stat name="spellcasting:dc" value="1" />
+		</rules>
+	</element>
+	<element name="Arcane Grimoire, +2" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ARCANE_GRIMOIRE_2">
+		<description>
+			<p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.</p>
+			<p class="indent">You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">2</set>
+			<set name="attunement" addition="by a wizard">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" />
+			<stat name="spellcasting:dc" value="2" />
+		</rules>
+	</element>
+	<element name="Arcane Grimoire, +3" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ARCANE_GRIMOIRE_3">
+		<description>
+			<p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.</p>
+			<p class="indent">You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">3</set>
+			<set name="attunement" addition="by a wizard">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" />
+			<stat name="spellcasting:dc" value="3" />
+		</rules>
+	</element>
+	<element name="Bloodwell Vial, +1" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BLOODWELL_VIAL_1">
+		<description>
+			<p>To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.</p>
+			<p class="indent">In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+			<stat name="spellcasting:dc" value="1" />
+		</rules>
+	</element>
+	<element name="Bloodwell Vial, +2" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BLOODWELL_VIAL_2">
+		<description>
+			<p>To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.</p>
+			<p class="indent">In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">2</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" />
+			<stat name="spellcasting:dc" value="2" />
+		</rules>
+	</element>
+	<element name="Bloodwell Vial, +3" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BLOODWELL_VIAL_3">
+		<description>
+			<p>To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.</p>
+			<p class="indent">In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wandrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">3</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" />
+			<stat name="spellcasting:dc" value="3" />
+		</rules>
+	</element>
+	<element name="Moon Sickle, +1" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_MOON_SICKLE_1">
+		<description>
+			<p>This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.</p>
+			<p class="indent">When you cast a spell that restores hit points, you can roll a d4 and add the number rolled to the amount of hit points restored, provided you are holding the sickle.</p>
+			<p class="indent"><em>Light.</em> A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="rarity">Uncommon</set>
+			<set name="damage" type="slashing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE</set>
+			<set name="attunement" addition="by a druid or ranger">true</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+			<stat name="spellcasting:dc" value="1" />
+		</rules>
+	</element>
+	<element name="Moon Sickle, +2" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_MOON_SICKLE_2">
+		<description>
+			<p>This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.</p>
+			<p class="indent">When you cast a spell that restores hit points, you can roll a d4 and add the number rolled to the amount of hit points restored, provided you are holding the sickle.</p>
+			<p class="indent"><em>Light.</em> A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="rarity">Rare</set>
+			<set name="damage" type="slashing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE</set>
+			<set name="attunement" addition="by a druid or ranger">true</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" />
+			<stat name="spellcasting:dc" value="2" />
+		</rules>
+	</element>
+	<element name="Moon Sickle, +3" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_MOON_SICKLE_3">
+		<description>
+			<p>This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.</p>
+			<p class="indent">When you cast a spell that restores hit points, you can roll a d4 and add the number rolled to the amount of hit points restored, provided you are holding the sickle.</p>
+			<p class="indent"><em>Light.</em> A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="rarity">Very Rare</set>
+			<set name="damage" type="slashing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE</set>
+			<set name="attunement" addition="by a druid or ranger">true</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" />
+			<stat name="spellcasting:dc" value="3" />
+		</rules>
+	</element>
+	<element name="Rhythm-Maker's Drum, +1" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_RHYTHM_MAKERS_DRUM_1">
+		<description>
+			<p>While holding this drum, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your bard spells.</p>
+			<p class="indent">As an action, you can play the drum to regain one use of your Bardic Inspiration feature. This property of the drum can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+			<stat name="spellcasting:dc" value="1" />
+		</rules>
+	</element>
+	<element name="Rhythm-Maker's Drum, +2" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_RHYTHM_MAKERS_DRUM_2">
+		<description>
+			<p>While holding this drum, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your bard spells.</p>
+			<p class="indent">As an action, you can play the drum to regain one use of your Bardic Inspiration feature. This property of the drum can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" />
+			<stat name="spellcasting:dc" value="2" />
+		</rules>
+	</element>
+	<element name="Rhythm-Maker's Drum, +3" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_RHYTHM_MAKERS_DRUM_3">
+		<description>
+			<p>While holding this drum, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your bard spells.</p>
+			<p class="indent">As an action, you can play the drum to regain one use of your Bardic Inspiration feature. This property of the drum can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" />
+			<stat name="spellcasting:dc" value="3" />
+		</rules>
+	</element>
+	<element name="Guardian Emblem" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_GUARDIAN_DRUM">
+		<description>
+			<p>This emblem is the symbol of a deity or a spiritual tradition. As an action, you can attach the emblem to a suit of armor or a shield or remove it.</p>
+			<p class="indent">The emblem has 3 charges. When you or a creature you can see within 30 feet of you suffers a critical hit while you're wearing the armor or wielding the shield that bears the emblem, you can use your reaction to expend 1 charge to turn the critical hit into a normal hit instead.</p>
+			<p class="indent">The emblem regains all expended charges daily at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="rarity">uncommon</set>
+			<set name="attunement" addition="by a cleric or paladin">true</set>
+		</setters>
+	</element>
+	<element name="Feywild Shard" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_FEYWILD_SHARD">
+		<description>
+			<p>This warm crystal glints with the sunset colors of the Feywild sky and evokes whispers of emotional memory. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p class="indent">When you use a Metamagic option on a spell while you are holding or wearing the shard, you can roll on the Wild Magic Surge table in the Player's Handbook. If the result is a spell, it is too wild to be affected by your Metamagic, and if it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.</p>
+			<p class="indent">If you don't have the Wild Magic Sorcerous Origin, once this property is used to roll on the Wild Magic Surge table, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="rarity">uncommon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+		</setters>
+	</element>
+	<element name="Nature's Mantle" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_NATURES_MANTLE">
+		<description>
+			<p>This cloak shifts color and texture to blend with the terrain surrounding you. While wearing the cloak, you can use it as a spellcasting focus for your druid and ranger spells.</p>
+			<p class="indent">While you are in an area that is lightly obscured, you can Hide as a bonus action even if you are being directly observed.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">neck</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement" addition="by a druid or ranger">true</set>
+		</setters>
+	</element>
+	<element name="Alchemical Compendium" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ALCHEMICAL_COMPENDIUM">
+		<description>
+			<p>Acrid odors cling to this stained, heavy volume. The book's metal fittings are copper, iron, lead, silver, and gold, some frozen mid-transition from one metal to another. When found, the book contains the following spells: enlarge/reduce, feather fall, flesh to stone, gaseous form, magic weapon, and polymorph. It functions as a spellbook for you.</p>
+			<p class="indent">While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p class="indent">The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the transmutation school.</li>
+				<li>As an action, you can touch a nonmagical object that isn't being worn or carried and spend a number of charges to transform the target into another object. For 1 charge, the object can be no larger than 1 foot on a side. You can spend additional charges to increase the maximum dimensions by 2 feet per charge. The new object must have a gold value equal to or less than the original.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tome, wizard, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ENLARGE_REDUCE" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" level="1"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FLESH_TO_STONE" level="11"/>
+			<grant type="Spell" id="ID_PHB_SPELL_GASEOUS_FORM" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_WEAPON" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" level="7"/>
+		</rules>
+	</element>
+	<element name="Astronomical Archive" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ASTRONOMICAL_ARCHIVE">
+		<description>
+			<p>This brass disc of articulated, concentric rings unfolds into an armillary sphere. As a bonus action, you can unfold it into the sphere or back into a disc. When found, it contains the following spells, which are wizard spells for you while you are attuned to it: augury, divination, find the path, foresight, locate creature, and locate object. It functions as a spellbook for you, with spells encoded on the rings.</p>
+			<p class="indent">While you are holding the archive, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p class="indent">The archive has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the archive, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the archive. The new spell must be of the divination school.</li>
+				<li>When a creature you can see within 30 feet of you makes an attack roll, an ability check, or a saving throw, you can use your reaction to expend 1 charge and force the creature to roll a d4 and apply the number rolled as a bonus or penalty (your choice) to the original roll. You can do this after you see the roll but before its effects are applied.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tome, wizard, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_AUGURY" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" level="1"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FIND_THE_PATH" level="11"/>
+			<grant type="Spell" id="ID_PHB_SPELL_LOCATE_OBJECT" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_DIVINATION" level="7"/>
+			<grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" level="7"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FORESIGHT" level="17"/>
+		</rules>
+	</element>
+	<element name="Atlas of Endless Horizons" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ATLAS_OF_ENDLESS_HORIZONS">
+		<description>
+			<p>This thick book is bound in dark leather, crisscrossed with inlaid silver lines suggesting a map or chart. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: arcane gate, dimension door, gate, misty step, plane shift, teleportation circle, and word of recall. It functions as a spellbook for you.</p>
+			<p class="indent">While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p class="indent">The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the conjuration school.</li>
+				<li>When you are hit by an attack, you can use your reaction to expend 1 charge to teleport up to 10 feet to an unoccupied space you can see. If your new position is out of range of the attack, it misses you.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tome, wizard, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_GATE" level="11"/>
+			<grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR" level="7"/>
+			<grant type="Spell" id="ID_PHB_SPELL_GATE" level="17"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_PLANE_SHIFT" level="13"/>
+			<grant type="Spell" id="ID_PHB_SPELL_TELEPORTATION_CIRCLE" level="9"/>
+			<grant type="Spell" id="ID_PHB_SPELL_WORD_OF_RECALL" level="11"/>
+		</rules>
+	</element>
+	<element name="Duplicitous Manuscript" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_DUPLICITOUS_MANUSCRIPT">
+		<description>
+			<p>To you, this book is a magical spellbook. To anyone else, the book appears to be a volume of verbose romance fiction. As an action, you can change the book's appearance and alter the plot of the romance.</p>
+			<p class="indent">When found, the book contains the following spells: hallucinatory terrain, major image, mirror image, mislead, Nystul's magic aura, phantasmal force, and silent image. It functions as a spellbook for you.</p>
+			<p class="indent">While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p class="indent">The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the illusion school.</li>
+				<li>When a creature you can see makes an Intelligence (Investigation) check to discern the true nature of an illusion spell you cast, or makes a saving throw against an illusion spell you cast, you can use your reaction and expend 1 charge to impose disadvantage on the roll.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tome, wizard, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN" level="7"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MAJOR_IMAGE" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MISLEAD" level="9"/>
+			<grant type="Spell" id="ID_PHB_SPELL_NYSTULS_MAGIC_AURA" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_PHANTASMAL_FORCE" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SILENT_IMAGE" level="1"/>
+		</rules>
+	</element>
+	<element name="Heart Weaver's Primer" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_HEART_WEAVERS_PRIMER">
+		<description>
+			<p>This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: antipathy/sympathy, charm person, dominate person, enthrall, hypnotic pattern, modify memory, and suggestion. It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizarding spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding </p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one your prepared spells with a different spell in the book. aThe new spell must be of the enchantment school.</li>
+				<li>When you cast an enchanted spell, you can expend 1 charge to impose disadvantage on the first saving throw one target makes against the spell</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tome, wizard, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ANTIPATHY_SYMPATHY" level="15"/>
+			<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" level="1"/>
+			<grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" level="9"/>
+			<grant type="Spell" id="ID_PHB_SPELL_ENTHRALL" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HYPNOTIC_PATTERN" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" level="9"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" level="3"/>
+		</rules>
+	</element>
+	<element name="Libram of Souls and Flesh" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_LIBRE_OF_SOULS_AND_FLESH">
+		<description>
+			<p>With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: animate dead, circle of death, false life, finger of death, speak with dead, summon undead, and vampiric touch. It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizarding spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding </p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one your prepared spells with a different spell in the book. aThe new spell must be of the necromancy school.</li>
+				<li>As an action, you can expend 1 charge to take on a semblance of undeath for 10 minutes. For the duration, you take on a deathly appearance, and undead creatures are indifferent to you, unless you have damaged them. You also appear undead to all outward inspection and to spells used to determine the target's status. The effect ends if you deal damage or force a creature to make a saving throw.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tome, wizard, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_CIRCLE_OF_DEATH" level="11"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" level="1"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FINGER_OF_DEATH" level="13"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SUMMON_UNDEAD" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_VAMPIRIC_TOUCH" level="5"/>
+		</rules>
+	</element>
+	<element name="Fulminating Treatise" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_FULMINATING_TREATISE">
+		<description>
+			<p>This thick, scorched spellbook reeks of smoke and ozone, and sparks of energy crackles along the edges of its pages. When found, the book contains the following spells: contingency, fireball, gust of wind, Leomund's tiny hut, magic missile, thunderwave, and wall of force. It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizarding spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding </p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one your prepared spells with a different spell in the book. aThe new spell must be of the evocation school.</li>
+				<li>When one creature you can see takes damage from an evocation spell you cast, you can use your reaction and expend 1 charge to deal an extra 2d6 force damage to the creature and knock the creature prone if it is Large or smaller.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tome, wizard, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CONTINGENCY" level="11"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_LEOMUNDS_TINY_HUT" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_MISSLE" level="1"/>
+			<grant type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" level="1"/>
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" level="9"/>
+		</rules>
+	</element>
+	<element name="Planecaller's Codex" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_FULMINATING_TREATISE">
+		<description>
+			<p>The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: banishment, find familiar, gate, magic circle, planar binding, and summon elemental. It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizarding spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding </p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one your prepared spells with a different spell in the book. aThe new spell must be of the conjuration school.</li>
+				<li>When you cast a conjuration spell that summons or creates one creature, you can expend 1 charge to grant that creature advantage on attack rolls for 1 minute.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tome, wizard, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="7"/>
+			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" level="1"/>
+			<grant type="Spell" id="ID_PHB_SPELL_GATE" level="17"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_CIRCLE" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_PLANAR_BINDING" level="9"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SUMMON_ELEMENTAL" level="7"/>
+		</rules>
+	</element>
+	<element name="Protective Verses" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_PROTECTIVE_VERSES">
+		<description>
+			<p>This leather-bound spellbook is reinforced with iron and silver fittings and an iron lock (DC 20 to open). As an action, you can touch the book's cover and cause it to lock as if you cast arcane lock on it. When found, the book contains the following spells: arcane lock, dispel magic, globe of invulnerability, glyph of warding, Mordenkainen's private sanctum, protection from evil, and symbol. It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizarding spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding </p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one your prepared spells with a different spell in the book. aThe new spell must be of the abjuration school.</li>
+				<li>When you cast an abjuration spell, you can expend 1 charge to grant a creature you can see within 30 feet of you 2d10 temporary hit points.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tome, wizard, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_LOCK" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_GLOBE_OF_INVOLNABILITY" level="11"/>
+			<grant type="Spell" id="ID_PHB_SPELL_GLYPH_OF_WARDING" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM" level="7"/>
+			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="1"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SYMBOL" level="13"/>
+		</rules>
+	</element>
+	<element name="Protective Verses" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_PROTECTIVE_VERSES">
+		<description>
+			<p>An etched crystal sphere the size of a grapefruit hums faintly and pulses with irregular flares of inner light. While you are touching the crystal, you can retrieve and store information and spells within the crystal at the same rate as reading and writing. When found, the crystal contains the following spells: detect thoughts, intellect fortress,* Rary's telepathic bond, sending, telekinesis, Tasha's mind whip,* and Tenser's floating disk (spells with an asterisk appear in this book). It functions as a spellbook for you, with its spells and other writing psychically encoded within it.</p>
+			<p>While you are holding the crystal, you can use it as a spellcasting focus for your wizard spells, and you know the mage hand, mind sliver (appears in this book), and message cantrips if you don't already know them.</p>
+			<p>The crystal has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the information within the crystal, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book.</li>
+				<li>When you cast a wizard spell, you can expend 1 charge to cast the spell without verbal, somatic, or material components of up to 100 gp value.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tome, wizard, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
+			<grant type="Spell" id="ID_TCOE_SPELL_MIND_SLIVER" />
+			<grant type="Spell" id="ID_PHB_SPELL_MESSAGE" />
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" level="3"/>
+			<grant type="Spell" id="ID_TCOE_SPELL_INTELLECT_FORTRESS" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="9"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SENDING" level="5"/>
+			<grant type="Spell" id="ID_PHB_SPELL_TELEKINESIS" level="9"/>
+			<grant type="Spell" id="ID_TCOE_SPELL_TASHAS_MIND_WHIP" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_TENSERS_FLOATING_DISK" level="1"/>
+		</rules>
+	</element>
+	<element name="Shadowfell Shard" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_SHADOWFELL_SHARD">
+		<description>
+			<p>This dull, cold crystal sits heavy and leaden, saturated by the Shadowfell's despair. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p class="indent">When you use a Metamagic option on a spell while you are holding or wearing the shard, you can momentarily curse one creature targeted by the spell; choose one ability score, and until the end of your next turn, the creature has disadvantage on ability checks and saving throws that use that ability.</p>
+		</description>
+		<setters>
+			<set name="category">Wandrous Item</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="rarity">uncommon</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+		</setters>
+	</element>
+</elements>

@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<element name="Oath of Glory" type="Archetype" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_OATH_OF_HEROISM">
+	<element name="Oath of Glory" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_OATH_OF_HEROISM">
 		<supports>Sacred Oath</supports>
 		<description>
 			<p>Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions so they're all ready when destiny calls.</p>
@@ -34,7 +34,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_LIVING_LEGEND" level="20" />
 		</rules>
 	</element>
-	<element name="Oath Spells" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_OATH_SPELLS">
+	<element name="Oath Spells" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_OATH_SPELLS">
 		<description>
 			<p><em>3rd-level Oath of Glory feature</em></p>
 			<p>You gain oath spells at the paladin levels listed in the Oath of Glory Spells table. See the Sacred Oath class feature for how oath spells work.</p>
@@ -66,7 +66,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="17" spellcasting="Paladin" prepared="true" />
 		</rules>
 	</element>
-	<element name="Channel Divinity" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_CHANNEL_DIVINITY">
+	<element name="Channel Divinity" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_CHANNEL_DIVINITY">
 		<description>
 			<p><em>3rd-level Oath of Glory feature</em></p>
 			<p>You gain the following two Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.</p>
@@ -79,7 +79,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_CD_INSPIRING_SMITE" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Peerless Athlete" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_CD_PEERLESS_ATHLETE">
+	<element name="Channel Divinity: Peerless Athlete" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_CD_PEERLESS_ATHLETE">
 		<description>
 			<p>As a bonus action, you can use your Channel Divinity to augment your athleticism. For the next 10 minutes, you have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks; you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal).</p>
 		</description>
@@ -87,7 +87,7 @@
 			<description>You gain advantage on all Athletics and Acrobatics checks for the next 10 minutes.  you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal).</description>
 		</sheet>
 	</element>
-	<element name="Channel Divinity: Legendary Strike" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_CD_INSPIRING_SMITE">
+	<element name="Channel Divinity: Legendary Strike" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_CD_INSPIRING_SMITE">
 		<description>
 			<p>Immediately after you deal damage to a creature with your Divine Smite feature, you can use your Channel Divinity as a bonus action and distribute temporary hit points to creatures of your choice within 30 feet of you, which can include you. The total number of temporary hit points equals 2d8 + your level in this class, divided among the chosen creatures however you like.</p>
 		</description>
@@ -95,7 +95,7 @@
 			<description>Immediately after you deal damage to a creature with you Divine Smite, you can distribute 2d8+{{paladin:level}} temporary hit points divided amoung creatures of your choice within 30 feet of you.</description>
 		</sheet>
 	</element>
-	<element name="Aura of Alacrity" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_AURA_OF_ALACRITY">
+	<element name="Aura of Alacrity" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_AURA_OF_ALACRITY">
 		<description>
 			<p><em>7th-level Oath of Glory feature</em></p>
 			<p>You emanate an aura that fills you and your companions with supernatural speed, allowing you to race across a battlefield in formation. Your walking speed increases by 10 feet. In addition, if you aren't incapacitated, the walking speed of any ally who starts their turn within 5 feet of you increases by 10 feet until the end of that turn.</p>
@@ -107,7 +107,7 @@
 			<description level="18">The walking speed of you and allies who start their turn within 10 feet of you while you aren't incapacitated increases by 10</description>
 		</sheet>
 	</element>
-	<element name="Glorious Defense" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_GLORIOUS_DEFENSE">
+	<element name="Glorious Defense" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_GLORIOUS_DEFENSE">
 		<description>
 			<p><em>15th-level Oath of Glory feature</em></p>
 			<p>You can turn defense into a sudden strike. When you or another creature you can see within 10 feet of you is hit by an attack roll, you can use your reaction to grant a bonus to the target's AC against that attack, potentially causing it to miss. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one weapon attack against the attacker as part of this reaction, provided the attacker is within your weapon's range.</p>
@@ -121,7 +121,7 @@
 			<stat name="glorious defense:ac" value="charisma:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Living Legend" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_LIVING_LEGEND">
+	<element name="Living Legend" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_HEROISM_LIVING_LEGEND">
 		<description>
 			<p><em>20th-level Oath of Glory feature</em></p>
 			<p>You can empower yourself with the legends—whether true or exaggerated—of your great deeds. As a bonus action, you gain the following benefits for 1 minute:</p>

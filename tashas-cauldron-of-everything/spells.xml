@@ -8,7 +8,7 @@
     </info>
 
     <element name="Color Spray" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_COLOR_SPRAY">
-        <supports>Sorcerer, Wizard, Bard</supports>
+        <supports>Bard, Sorcerer, Wizard</supports>
         <description>
             <p>A dazzling array of flashing, colored light springs from your hand. Roll 6d10; the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can't see)</p>
             <p class="indent">Starting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the end of your next turn. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.</p>
@@ -92,7 +92,7 @@
             <set name="level">2</set>
             <set name="school">Transmutation</set>
             <set name="time">1 action</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">30 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -137,7 +137,7 @@
             <set name="level">3</set>
             <set name="school">Abjuration</set>
             <set name="time">1 action</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">30 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">false</set>
@@ -181,7 +181,7 @@
             <set name="level">3</set>
             <set name="school">Transmutation</set>
             <set name="time">1 action</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">120 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -202,7 +202,7 @@
             <set name="level">4</set>
             <set name="school">Illusion</set>
             <set name="time">1 action</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">120 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -276,6 +276,34 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Prismatic Spray" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_PRISMATIC_SPRAY">
+        <supports>Bard, Sorcerer, Wizard</supports>
+        <description>
+            <p>Eight multicolored rays of light flash from your hand. Each ray is a different color and has a different power and purpose. Each creature in a 60-foot cone must make a Dexterity saving throw. For each target, roll a d8 to determine which color ray affects it.</p>
+            <p class="indent"><em>1-Red</em> The target takes 10d6 fire damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent"><em>2-Orange</em> The target takes 10d6 acid damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent"><em>3-Yellow</em> The target takes 10d6 lightning damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent"><em>4-Green</em> The target takes 10d6 poison damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent"><em>5-Blue</em> The target takes 10d6 cold damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent"><em>6-Indigo</em> On a failed save, the target is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive, keep track of both until the target collects three of a kind.</p>
+            <p class="indent"><em>7-Violet</em> On a failed save, the target is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)</p>
+            <p class="indent">The target is struck by two rays. Roll twice more, rerolling any 8.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">7</set>
+            <set name="time">1 action</set>
+            <set name="school">Evocation</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self (60-foot cone)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Antipathy/Sympathy" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_ANTIPATHY_SYMPATHY">
         <supports>Bard, Druid, Wizard</supports>
         <description>
@@ -342,7 +370,7 @@
             <set name="level">3</set>
             <set name="time">1 action</set>
             <set name="school">Evocation</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">Self (30-feet radius)</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">false</set>
@@ -365,7 +393,7 @@
             <set name="level">3</set>
             <set name="time">1 bonus action</set>
             <set name="school">Necromancy</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">Self</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -385,7 +413,7 @@
             <set name="level">4</set>
             <set name="time">1 action</set>
             <set name="school">Abjuration</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">Self (30-feet radius)</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">false</set>
@@ -405,7 +433,7 @@
             <set name="level">4</set>
             <set name="time">1 action</set>
             <set name="school">Abjuration</set>
-            <set name="duration">up to 10 minute</set>
+            <set name="duration">Concentration, up to 10 minute</set>
             <set name="range">Self (30-feet radius)</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">false</set>
@@ -427,7 +455,7 @@
             <set name="level">5</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">90 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -449,7 +477,7 @@
             <set name="level">6</set>
             <set name="time">1 action</set>
             <set name="school">Evocation</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">Self (60-foot cone)</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -512,7 +540,7 @@
             <set name="level">1</set>
             <set name="time">1 action</set>
             <set name="school">Abjuration</set>
-            <set name="duration">up to 10 minutes</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
             <set name="range">Touch</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -523,7 +551,7 @@
         </setters>
     </element>
     <element name="Augury" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_AUGURY">
-        <supports>Cleric, Druid</supports>
+        <supports>Cleric, Druid, Wizard</supports>
         <description>
             <p>By casting gem-inlaid sticks, rolling dragin bones, laying out ornate cards, or employing some other divining tool, you receive an omenfrom an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. The DM chooses from the following possible omens:</p>
             <ul>
@@ -582,7 +610,7 @@
             <set name="level">2</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">90 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -603,7 +631,7 @@
             <set name="level">3</set>
             <set name="time">1 action</set>
             <set name="school">Transmutation</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">Touch</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -645,7 +673,7 @@
             <set name="level">3</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">90 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -656,7 +684,7 @@
         </setters>
     </element>
     <element name="Divination" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_DIVINATION">
-        <supports>Druid, Ranger, Wizard</supports>
+        <supports>Cleric, Druid, Wizard</supports>
         <description>
             <p>Your magic and an offering put you in contact with a god or a god's servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.</p>
             <p class="indent">The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.</p>
@@ -711,7 +739,7 @@
             <set name="level">4</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">90 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -756,7 +784,7 @@
             <set name="level">6</set>
             <set name="time">1 action</set>
             <set name="school">Transmutation</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -810,7 +838,7 @@
             <set name="level">8</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">150 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -895,7 +923,7 @@
             <set name="level">1</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">90 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -916,7 +944,7 @@
             <set name="level">1</set>
             <set name="time">1 bonus action</set>
             <set name="school">Evocation</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">Self</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">false</set>
@@ -943,7 +971,7 @@
             <set name="level">2</set>
             <set name="time">1 action</set>
             <set name="school">Transmutation</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">Touch</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -966,7 +994,7 @@
             <set name="level">2</set>
             <set name="time">1 action</set>
             <set name="school">Evocation</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">Self (60-foot line)</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -987,7 +1015,7 @@
             <set name="level">2</set>
             <set name="time">1 bonus action</set>
             <set name="school">Transmutation</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">Touch</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1026,14 +1054,14 @@
             <p class="indent">While the beast is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.</p>
             <p class="indent">You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.</p>
             <p class="indent">Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p>
-            <p class="indent"><em>At Higher Levels.</em> When you cast this spell with a 5th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 6th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 hours.</p>
+            <p class="indent"><em>At Higher Levels.</em> When you cast this spell with a 5th-level spell slot, the duration is concentration, Concentration, up to 10 minutes. When you use a 6th-level spell slot, the duration is concentration, Concentration, up to 1 hour. When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 hours.</p>
         </description>
         <setters>
             <set name="keywords"></set>
             <set name="level">4</set>
             <set name="time">1 action</set>
             <set name="school">Enchantment</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1059,7 +1087,7 @@
             <set name="level">4</set>
             <set name="time">1 action</set>
             <set name="school">Enchantment</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1114,7 +1142,7 @@
     <element name="Lightning Lure" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_LIGHTNING_LURE">
         <supports>Artificer, Sorcerer, Warlock, Wizard</supports>
         <description>
-            <p>You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.</p>
+            <p>You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled Concentration, up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.</p>
 			<p class="indent">This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
         </description>
         <setters>
@@ -1206,7 +1234,7 @@
             <set name="level">1</set>
             <set name="time">1 action</set>
             <set name="school">Evocation</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">Self (30-foot line)</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1229,7 +1257,7 @@
             <set name="level">2</set>
             <set name="time">1 bonus action</set>
             <set name="school">Evocation</set>
-            <set name="duration">up to 10 minute</set>
+            <set name="duration">Concentration, up to 10 minute</set>
             <set name="range">Self</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1244,7 +1272,7 @@
         <description>
             <p>A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.</p>
             <p class="indent">As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere's damage, and the sphere stops moving this turn.</p>
-            <p class="indent">When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.</p>
+            <p class="indent">When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits Concentration, up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.</p>
 			<p class="indent"><em>At Higher Levels.</em> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
         </description>
         <setters>
@@ -1252,7 +1280,7 @@
             <set name="level">2</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">60 feet </set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1294,7 +1322,7 @@
             <set name="level">3</set>
             <set name="time">1 action</set>
             <set name="school">Necromancy</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">Self</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1321,7 +1349,7 @@
             <set name="level">5</set>
             <set name="time">1 action</set>
             <set name="school">Evocation</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">120 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1372,7 +1400,7 @@
             <set name="level">6</set>
             <set name="time">1 action</set>
             <set name="school">Transmutation</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">Self</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1400,7 +1428,7 @@
             <set name="level">6</set>
             <set name="time">1 action</set>
             <set name="school">Transmutation</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">Self</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1443,7 +1471,7 @@
             <set name="level">9</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1465,7 +1493,7 @@
             <set name="level">3</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">90 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1487,7 +1515,7 @@
             <set name="level">3</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">90 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1509,7 +1537,7 @@
             <set name="level">4</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">90 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1531,7 +1559,7 @@
             <set name="level">5</set>
             <set name="time">1 action</set>
             <set name="school">Illusion</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">Self</set>
             <set name="hasVerbalComponent">false</set>
             <set name="hasSomaticComponent">true</set>
@@ -1619,7 +1647,7 @@
             <set name="level">6</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 hour</set>
+            <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">90 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1642,7 +1670,7 @@
             <set name="level">9</set>
             <set name="time">1 action</set>
             <set name="school">Conjuration</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -1662,12 +1690,55 @@
             <set name="level">9</set>
             <set name="time">1 action</set>
             <set name="school">Illusion</set>
-            <set name="duration">up to 1 minute</set>
+            <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">120 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">false</set>
             <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Speak with Dead" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_SPEAK_WITH_DEAD">
+        <supports>Bard, Cleric, Wizard</supports>
+        <description>
+            <p>You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 days.</p>
+            <p class="indent">Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.</p>
+	    </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="time">1 action</set>
+            <set name="school">Necromacy</set>
+            <set name="duration">10 minute</set>
+            <set name="range">10 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">burning incense</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Summon Construct" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_SUMMON_CONSTRUCT">
+        <supports>Artificer, Wizard</supports>
+        <description>
+            <p>You call forth the spirit of a construct. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Construct Spirit stat block. When you cast the spell, choose a material: Clay, Metal, or Stone. The creature resembles a golem or a modron (your choice) made of the chosen material, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
+            <p class="indent">The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.</p>
+            <p class="indent"><em>At Higher Levels.</em> When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.</p>
+	    </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="time">1 action</set>
+            <set name="school">Conjuration</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">an orante stone and metal lockbox worth at least 400 gp</set>
             <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>
