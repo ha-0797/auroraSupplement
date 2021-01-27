@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Custom Lineage</name>
+		<update version="0.0.1">
+			<file name="dragonborn-custom.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/dragonborn-custom.xml" />
+		</update>
+	</info>
+	<element name="Custom Lineage" type="Race Variant" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_RACE_VARIANT_DRAGONBORN_CUSTOM">
+		<supports>Dragonborn</supports>
+		<description>
+			<p>Draconbloods possess long tails and a knack for social manipulation. They remember the days when they were once mighty conquerors.</p>
+			<p class="indent">A draconblood uses the dragonborn traits in the Player’s Handbook, with the following traits replacing the Ability Score increase, and Damage Resistance traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2, and your Charisma score increases by 1.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Forceful Presence.</em></strong> You can use your understanding of creative diplomacy or intimidation to guide a conversation in your favor. When you make a Charisma (Intimidation or Persuasion) check, you can do so with advantage. Once you use this trait you can’t do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet alt="Custom Lineage" display="false" />
+		<rules>
+			<grant type="Grants" id="ID_WOTC_TCOE_GRANTS_DRAGONBORN_VARIANT" />
+		    <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Dragonborn 2" number="1" />
+			<select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Dragonborn 1" number="1" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_WOTC_TCOE_RACIAL_TRAIT_DRACONBLOOD_FORCEFUL_PRESENCE" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM__ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 2</supports>
+    	<description>
+      		<p>Your Strength score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="strength" value="2" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 2</supports>
+    	<description>
+      		<p>Your Dexterity score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="dexterity" value="2" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 2</supports>
+    	<description>
+      		<p>Your Constitution score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="constitution" value="2" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 2</supports>
+    	<description>
+      		<p>Your Wisdom score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="wisdom" value="2" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 2</supports>
+    	<description>
+      		<p>Your Intelligence score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="intelligence" value="2" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 2</supports>
+    	<description>
+      		<p>Your Charisma score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="charisma" value="2" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 1</supports>
+    	<description>
+      		<p>Your Charisma score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="charisma" value="1" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 1</supports>
+    	<description>
+      		<p>Your Wisdom score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="wisdom" value="1" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 1</supports>
+    	<description>
+      		<p>Your Intelligence score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="intelligence" value="1" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 1</supports>
+    	<description>
+      		<p>Your Constitution score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="constitution" value="1" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 1</supports>
+    	<description>
+      		<p>Your Dexterity score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="dexterity" value="1" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Dragonborn 1</supports>
+    	<description>
+      		<p>Your Strength score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="strength" value="1" alt="Custom Dragonborn" />
+    	</rules>
+	</element>
+	<element name="Forceful Presence" type="Racial Trait" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_RACIAL_TRAIT_DRACONBLOOD_FORCEFUL_PRESENCE">
+		<description>
+			<p>You can use your understanding of creative diplomacy or intimidation to guide a conversation in your favor. When you make a Charisma (Intimidation or Persuasion) check, you can do so with advantage. Once you use this trait you can’t do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>When you make a Intimidation or Persuasion check, you can do so with advantage.</description>
+		</sheet>
+	</element>
+</elements>
