@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Custom Lineage</name>
+		<update version="0.0.1">
+			<file name="centaur-custom.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/centaur-custom.xml" />
+		</update>
+	</info>
+	<element name="Custom Lineage" type="Race Variant" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_RACE_VARIANT_CENTAUR_CUSTOM">
+		<supports>Centaur</supports>
+		<sheet alt="Custom Lineage" display="false" />
+		<rules>
+			<grant type="Grants" id="ID_WOTC_TCOE_GRANTS_CENTAUR_VARIANT" />
+		    <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Centaur 2" number="1" />
+			<select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Centaur 1" number="1" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_STRENGTH_ONE" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_STRENGTH_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 2</supports>
+    	<description>
+      		<p>Your Strength score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="strength" value="2" alt="Custom Centaur" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_DEXTERITY_ONE" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_DEXTERITY_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 2</supports>
+    	<description>
+      		<p>Your Dexterity score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="dexterity" value="2" alt="Custom Centaur" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_CONSTITUTION_ONE" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_CONSTITUTION_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 2</supports>
+    	<description>
+      		<p>Your Constitution score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="constitution" value="2" alt="Custom Centaur" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_WISDOM_ONE" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_WISDOM_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 2</supports>
+    	<description>
+      		<p>Your Wisdom score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="wisdom" value="2" alt="Custom Centaur" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_INTELLIGENCE_ONE" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_INTELLIGENCE_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 2</supports>
+    	<description>
+      		<p>Your Intelligence score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="intelligence" value="2" alt="Custom Centaur" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_CHARISMA_ONE" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_CHARISMA_TWO">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 2</supports>
+    	<description>
+      		<p>Your Charisma score increases by 2.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="charisma" value="2" alt="Custom Centaur" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_CHARISMA_TWO" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_CHARISMA_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 1</supports>
+    	<description>
+      		<p>Your Charisma score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="charisma" value="1" alt="Custom Centaur" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_WISDOM_TWO" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_WISDOM_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 1</supports>
+    	<description>
+      		<p>Your Wisdom score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="wisdom" value="1" alt="Custom Centaur" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_INTELLIGENCE_TWO" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_INTELLIGENCE_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 1</supports>
+    	<description>
+      		<p>Your Intelligence score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="intelligence" value="1" alt="Custom Centaur" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_CONSTITUTION_TWO" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_CONSTITUTION_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 1</supports>
+    	<description>
+      		<p>Your Constitution score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="constitution" value="1" alt="Custom Centaur" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_DEXTERITY_TWO" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_DEXTERITY_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 1</supports>
+    	<description>
+      		<p>Your Dexterity score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="dexterity" value="1" alt="Custom Centaur" />
+    	</rules>
+	</element>
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_CENTAUR_CUSTOM_STRENGTH_TWO" id="ID_RACE_VARIANT_CENTAUR_CUSTOM_STRENGTH_ONE">
+    	<compendium display="false" />
+    	<supports>Custom Centaur 1</supports>
+    	<description>
+      		<p>Your Strength score increases by 1.</p>
+    	</description>
+    	<sheet display="false" />
+    	<rules>
+    		<stat name="strength" value="1" alt="Custom Centaur" />
+    	</rules>
+	</element>
+</elements>
