@@ -3,7 +3,7 @@
     <info>
         <name>Custom Lineage</name>
         <update version="0.0.1">
-            <file name="dwarf-custom.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/dwarf-custom.xml" />
+            <file name="dwarf-custom.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/Tasha's Cauldron of Everything/dwarf-custom.xml" />
         </update>
     </info>
     <element name="Custom Lineage" type="Sub Race" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_SUB_RACE_DWARF_CUSTOM">
@@ -12,8 +12,95 @@
         <rules>
             <grant type="Grants" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
             <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Dwarf 2" number="1" />
-            <select type="Proficiency" name="Tool Proficiency (Dwarf)" supports="Simple Weapon" />
-            <select type="Proficiency" name="Weapon Master" supports="Weapon" number="4" />
+            <select type="Proficiency" name="Custom Tool Proficiencies" supports="Custom Tools" />
+            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons 1" number="1" />
+            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons 2" number="1" />
+            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons 3" number="1" />
+            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons 4" number="1" />
+        </rules>
+    </element>
+    <element name="Tool Proficiency" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_TOOLS">
+        <supports>Custom Tools</supports>
+        <description>Proficiency in one tool of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" />
+        </rules>
+    </element>
+    <element name="Simple Weapon Proficiency" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_SIMPLE_WEAPONS">
+        <supports>Custom Tools</supports>
+        <description>Proficiency in one tool of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Weapon, Simple" />
+        </rules>
+    </element>
+    <element name="Weapons Proficiency 1" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_1">
+        <supports>Custom Weapons 1</supports>
+        <description>Proficiency in one tool of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Weapon" number="1" />
+        </rules>
+    </element>
+    <element name="Tool Proficiency 1" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_TOOLS_1">
+        <supports>Custom Weapons 1</supports>
+        <description>Proficiency in one tool of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" number="1" />
+        </rules>
+    </element>
+    <element name="Weapons Proficiency 2" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_2">
+        <supports>Custom Weapons 2</supports>
+        <description>Proficiency in one tool of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Weapon" number="1" />
+        </rules>
+    </element>
+    <element name="Tool Proficiency 2" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_TOOLS_2">
+        <supports>Custom Weapons 2</supports>
+        <description>Proficiency in one tool of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" number="1" />
+        </rules>
+    </element>
+    <element name="Weapons Proficiency 3" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_3">
+        <supports>Custom Weapons 3</supports>
+        <description>Proficiency in one tool of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Weapon" number="1" />
+        </rules>
+    </element>
+    <element name="Tool Proficiency 3" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_TOOLS_3">
+        <supports>Custom Weapons 3</supports>
+        <description>Proficiency in one tool of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" number="1" />
+        </rules>
+    </element>
+    <element name="Weapons Proficiency 4" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_4">
+        <supports>Custom Weapons 4</supports>
+        <description>Proficiency in one tool of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Weapon" number="1" />
+        </rules>
+    </element>
+    <element name="Tool Proficiency 4" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_TOOLS_4">
+        <supports>Custom Weapons 4</supports>
+        <description>Proficiency in one tool of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" number="1" />
+        </rules>
+    </element>
+    <element name="Tool Proficiency" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_TOOLS">
+        <supports>Custom Weapons</supports>
+        <description>Proficiency in one tool of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tools" />
+        </rules>
+    </element>
+    <element name="Tool Proficiency" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_TOOLS">
+        <supports>Custom Tools</supports>
+        <description>Proficiency in one simple weapon of your choice</description>
+        <rules>
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" />
         </rules>
     </element>
     <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_SUB_RACE_DWARF_CUSTOM_STRENGTH_TWO">
