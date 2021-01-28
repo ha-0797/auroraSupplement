@@ -6,78 +6,79 @@
             <file name="dwarf-custom.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/dwarf-custom.xml" />
         </update>
     </info>
-    <element name="Custom Lineage" type="Race Variant" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_RACE_VARIANT_DWARF_CUSTOM">
-        <supports>Dragonborn</supports>
+    <element name="Custom Lineage" type="Race Variant" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_RACE_VARIANT_DWARF_CUSTOM">
+        <supports>Dwarf</supports>
         <sheet alt="Custom Lineage" display="false" />
         <rules>
-            <grant type="Grants" id="ID_WOTC_TCOE_GRANTS_DWARF_VARIANT" />
-            <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Dragonborn 2" number="1" />
+            <grant type="Grants" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
+            <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Dwarf 2" number="1" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DWARF_CUSTOM__ONE" id="ID_RACE_VARIANT_DWARF_CUSTOM_STRENGTH_TWO">
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_DWARF_CUSTOM_STRENGTH_TWO">
         <compendium display="false" />
-        <supports>Custom Dragonborn 2</supports>
+        <supports>Custom Dwarf 2</supports>
         <description>
             <p>Your Strength score increases by 2.</p>
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="strength" value="2" alt="Custom Dragonborn" />
+            <stat name="strength" value="2" alt="Custom Dwarf" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DWARF_CUSTOM_DEXTERITY_ONE" id="ID_RACE_VARIANT_DWARF_CUSTOM_DEXTERITY_TWO">
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_DWARF_CUSTOM_DEXTERITY_TWO">
         <compendium display="false" />
-        <supports>Custom Dragonborn 2</supports>
+        <supports>Custom Dwarf 2</supports>
         <description>
             <p>Your Dexterity score increases by 2.</p>
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="dexterity" value="2" alt="Custom Dragonborn" />
+            <stat name="dexterity" value="2" alt="Custom Dwarf" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DWARF_CUSTOM_CONSTITUTION_ONE" id="ID_RACE_VARIANT_DWARF_CUSTOM_CONSTITUTION_TWO">
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_DWARF_CUSTOM_CONSTITUTION_TWO">
         <compendium display="false" />
-        <supports>Custom Dragonborn 2</supports>
+        <supports>Custom Dwarf 2</supports>
         <description>
             <p>Your Constitution score increases by 2.</p>
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="constitution" value="2" alt="Custom Dragonborn" />
+            <stat name="constitution" value="2" alt="Custom Dwarf" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DWARF_CUSTOM_WISDOM_ONE" id="ID_RACE_VARIANT_DWARF_CUSTOM_WISDOM_TWO">
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_DWARF_CUSTOM_WISDOM_TWO">
         <compendium display="false" />
-        <supports>Custom Dragonborn 2</supports>
+        <supports>Custom Dwarf 2</supports>
         <description>
             <p>Your Wisdom score increases by 2.</p>
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="wisdom" value="2" alt="Custom Dragonborn" />
+            <stat name="wisdom" value="2" alt="Custom Dwarf" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DWARF_CUSTOM_INTELLIGENCE_ONE" id="ID_RACE_VARIANT_DWARF_CUSTOM_INTELLIGENCE_TWO">
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_DWARF_CUSTOM_INTELLIGENCE_TWO">
         <compendium display="false" />
-        <supports>Custom Dragonborn 2</supports>
+        <supports>Custom Dwarf 2</supports>
         <description>
             <p>Your Intelligence score increases by 2.</p>
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="intelligence" value="2" alt="Custom Dragonborn" />
+            <stat name="intelligence" value="2" alt="Custom Dwarf" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DWARF_CUSTOM_CHARISMA_ONE" id="ID_RACE_VARIANT_DWARF_CUSTOM_CHARISMA_TWO">
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_DWARF_CUSTOM_CHARISMA_TWO">
         <compendium display="false" />
-        <supports>Custom Dragonborn 2</supports>
+        <supports>Custom Dwarf 2</supports>
         <description>
             <p>Your Charisma score increases by 2.</p>
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="charisma" value="2" alt="Custom Dragonborn" />
+            <stat name="charisma" value="2" alt="Custom Dwarf" />
         </rules>
-    </element>
+    </element>	
+	<element name="Custom Lineage" type="Grants" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
 </elements>

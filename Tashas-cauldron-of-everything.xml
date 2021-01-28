@@ -43,6 +43,6 @@
 		<file name="feats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/feats.xml" />
 		<file name="spells.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/spells.xml" />
 
-		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/items/items-wondrous.xml" />
+		<file name="items.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/items.xml" />
 	</files>
 </index>

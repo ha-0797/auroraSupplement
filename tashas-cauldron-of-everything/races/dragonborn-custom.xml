@@ -6,16 +6,16 @@
 			<file name="dragonborn-custom.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/dragonborn-custom.xml" />
 		</update>
 	</info>
-	<element name="Custom Lineage" type="Race Variant" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_RACE_VARIANT_DRAGONBORN_CUSTOM">
+	<element name="Custom Lineage" type="Race Variant" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_RACE_VARIANT_DRAGONBORN_CUSTOM">
 		<supports>Dragonborn</supports>
 		<sheet alt="Custom Lineage" display="false" />
 		<rules>
 			<grant type="Grants" id="ID_WOTC_TCOE_GRANTS_DRAGONBORN_VARIANT" />
-		    <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Dragonborn 2" number="1" />
-			<select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Dragonborn 1" number="1" />
+		    <select type="Racial Trait" name="Ability Score Increase 2 (Custom Lineage)" supports="Custom Dragonborn 2" number="1" />
+		    <select type="Racial Trait" name="Ability Score Increase 1 (Custom Lineage)" supports="Custom Dragonborn 1" number="1" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_TWO">
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_TWO">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 2</supports>
     	<description>
@@ -23,7 +23,7 @@
     	</description>
     	<sheet display="false" />
     	<rules>
-    		<stat name="strength" value="2" alt="Custom Dragonborn" />
+    		<stat name="strength" value="2" alt="Custom Dragonborn" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_ONE"/>
     	</rules>
 	</element>
 	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_TWO">
@@ -146,5 +146,6 @@
     	<rules>
     		<stat name="strength" value="1" alt="Custom Dragonborn" />
     	</rules>
-	</element>
+	</element>	
+	<element name="Custom Lineage" type="Grants" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
 </elements>

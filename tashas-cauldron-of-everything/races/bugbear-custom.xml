@@ -6,12 +6,12 @@
 			<file name="bugbear-custom.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/bugbear-custom.xml" />
 		</update>
 	</info>
-	<element name="Custom Lineage" type="Race Variant" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_RACE_VARIANT_BUGBEAR_CUSTOM">
+	<element name="Custom Lineage" type="Race Variant" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_RACE_VARIANT_BUGBEAR_CUSTOM">
 		<supports>Bugbear</supports>
 		<sheet alt="Custom Lineage" display="false" />
 		<rules>
-			<grant type="Grants" id="ID_WOTC_TCOE_GRANTS_BUGBEAR_VARIANT" />
-		    <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Bugbear 2" number="1" />
+			<grant type="Grants" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
+            <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Bugbear 2" number="1" />
 			<select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Bugbear 1" number="1" />
 		</rules>
 	</element>
@@ -146,5 +146,6 @@
     	<rules>
     		<stat name="strength" value="1" alt="Custom Bugbear" />
     	</rules>
-	</element>
+	</element>	
+	<element name="Custom Lineage" type="Grants" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
 </elements>
