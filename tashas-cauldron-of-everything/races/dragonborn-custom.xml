@@ -15,7 +15,7 @@
 		    <select type="Racial Trait" name="Ability Score Increase 1 (Custom Lineage)" supports="Custom Dragonborn 1" number="1" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_TWO">
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_TWO">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 2</supports>
     	<description>
@@ -26,7 +26,7 @@
     		<stat name="strength" value="2" alt="Custom Dragonborn" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_ONE"/>
     	</rules>
 	</element>
-	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_TWO">
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_TWO">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 2</supports>
     	<description>
@@ -37,7 +37,7 @@
     		<stat name="dexterity" value="2" alt="Custom Dragonborn" />
     	</rules>
 	</element>
-	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_TWO">
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_TWO">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 2</supports>
     	<description>
@@ -48,7 +48,7 @@
     		<stat name="constitution" value="2" alt="Custom Dragonborn" />
     	</rules>
 	</element>
-	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_TWO">
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_TWO">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 2</supports>
     	<description>
@@ -59,7 +59,7 @@
     		<stat name="wisdom" value="2" alt="Custom Dragonborn" />
     	</rules>
 	</element>
-	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_TWO">
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_TWO">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 2</supports>
     	<description>
@@ -70,7 +70,7 @@
     		<stat name="intelligence" value="2" alt="Custom Dragonborn" />
     	</rules>
 	</element>
-	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_TWO">
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_ONE" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_TWO">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 2</supports>
     	<description>
@@ -81,7 +81,7 @@
     		<stat name="charisma" value="2" alt="Custom Dragonborn" />
     	</rules>
 	</element>
-	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_ONE">
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CHARISMA_ONE">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 1</supports>
     	<description>
@@ -92,7 +92,7 @@
     		<stat name="charisma" value="1" alt="Custom Dragonborn" />
     	</rules>
 	</element>
-	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_ONE">
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_WISDOM_ONE">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 1</supports>
     	<description>
@@ -103,7 +103,7 @@
     		<stat name="wisdom" value="1" alt="Custom Dragonborn" />
     	</rules>
 	</element>
-	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_ONE">
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_INTELLIGENCE_ONE">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 1</supports>
     	<description>
@@ -114,7 +114,7 @@
     		<stat name="intelligence" value="1" alt="Custom Dragonborn" />
     	</rules>
 	</element>
-	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_ONE">
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_CONSTITUTION_ONE">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 1</supports>
     	<description>
@@ -125,7 +125,7 @@
     		<stat name="constitution" value="1" alt="Custom Dragonborn" />
     	</rules>
 	</element>
-	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_ONE">
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_DEXTERITY_ONE">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 1</supports>
     	<description>
@@ -136,7 +136,7 @@
     		<stat name="dexterity" value="1" alt="Custom Dragonborn" />
     	</rules>
 	</element>
-	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_ONE">
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_TWO" id="ID_RACE_VARIANT_DRAGONBORN_CUSTOM_STRENGTH_ONE">
     	<compendium display="false" />
     	<supports>Custom Dragonborn 1</supports>
     	<description>

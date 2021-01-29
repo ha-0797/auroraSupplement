@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Custom Lineage</name>
+        <update version="0.0.1">
+            <file name="elf-custom.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/Tasha's Cauldron of Everything/elf-custom.xml" />
+        </update>
+    </info>
+    <element name="Custom Lineage" type="Sub Race" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_SUBRACE_CUSTOM">
+        <supports>Elf</supports>
+        <sheet alt="Custom Lineage" display="false" />
+        <rules>
+            <grant type="Grants" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
+            <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Elf 2" number="1" />
+            <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Elf 1" number="1" />
+            <select type="Proficiency" name="Custom Skill Proficiencies" supports="Skill" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_STRENGTH_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Strength score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_DEXTERITY_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Dexterity score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_CONSTITUTION_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Constitution score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_WISDOM_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Wisdom score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_INTELLIGENCE_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Intelligence score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_CHARISMA_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Charisma score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_CHARISMA_TWO" id="ID_SUBRACE_CUSTOM_CHARISMA_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Charisma score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_WISDOM_TWO" id="ID_SUBRACE_CUSTOM_WISDOM_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Wisdom score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_INTELLIGENCE_TWO" id="ID_SUBRACE_CUSTOM_INTELLIGENCE_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Intelligence score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_CONSTITUTION_TWO" id="ID_SUBRACE_CUSTOM_CONSTITUTION_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Constitution score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_DEXTERITY_TWO" id="ID_SUBRACE_CUSTOM_DEXTERITY_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Dexterity score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_STRENGTH_TWO" id="ID_SUBRACE_CUSTOM_STRENGTH_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Strength score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>  
+    <element name="Custom Lineage" type="Grants" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
+</elements>

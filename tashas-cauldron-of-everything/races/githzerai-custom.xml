@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Custom Lineage</name>
+        <update version="0.0.1">
+            <file name="elf-custom.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/Tasha's Cauldron of Everything/elf-custom.xml" />
+        </update>
+    </info>
+    <element name="Custom Lineage" type="Sub Race" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_SUBRACE_CUSTOM">
+        <supports>Elf</supports>
+        <sheet alt="Custom Lineage" display="false" />
+        <rules>
+            <grant type="Grants" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
+            <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Elf 2" number="1" />
+            <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Elf 1" number="1" />
+            <select type="Proficiency" name="Custom Skill Proficiencies" supports="Skill" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_STRENGTH_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Strength score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_DEXTERITY_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Dexterity score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_CONSTITUTION_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Constitution score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_WISDOM_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Wisdom score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_INTELLIGENCE_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Intelligence score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUBRACE_CUSTOM_CHARISMA_TWO">
+        <compendium display="false" />
+        <supports>Custom Elf 2</supports>
+        <description>
+            <p>Your Charisma score increases by 2.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="2" alt="Custom Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_CHARISMA_TWO" id="ID_SUBRACE_CUSTOM_CHARISMA_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Charisma score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_WISDOM_TWO" id="ID_SUBRACE_CUSTOM_WISDOM_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Wisdom score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_INTELLIGENCE_TWO" id="ID_SUBRACE_CUSTOM_INTELLIGENCE_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Intelligence score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_CONSTITUTION_TWO" id="ID_SUBRACE_CUSTOM_CONSTITUTION_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Constitution score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_DEXTERITY_TWO" id="ID_SUBRACE_CUSTOM_DEXTERITY_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Dexterity score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUBRACE_CUSTOM_STRENGTH_TWO" id="ID_SUBRACE_CUSTOM_STRENGTH_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Strength score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+  <element name="Githzerai Psionics" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_RACIAL_TRAIT_GITHZERAI_GITHZERAI_PSIONICS">
+    <description>
+      <p>You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</p>
+      <p class="indent">When you reach 3rd level, you can cast the shield spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the detect thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest.</p>
+      <p class="indent">Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.</p>
+    </description>
+    <sheet>
+      <description>You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait. Wisdom is your spellcasting ability for this spell and you don't require components.</description>
+      <description level="3">You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait. You can cast the shield spell with this trait (1/LR). Wisdom is your spellcasting ability for these spells and you don't require components.</description>
+      <description level="5">You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait. You can cast the shield spell with this trait (1/LR). You can cast the detect thoughts spell with this trait (1/LR). Wisdom is your spellcasting ability for these spells and you don't require components.</description>
+    </sheet>
+    <rules>
+        <grant type="Spell" name="ID_PHB_SPELL_MAGE_HAND" />
+        <grant type="Spell" name="ID_PHB_SPELL_SHIELD" level="3" />
+        <grant type="Spell" name="ID_PHB_SPELL_DETECT_THOUGHTS" level="5" />
+    </rules>
+  </element>
+  <element name="Mental Discipline" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_RACIAL_TRAIT_GITHZERAI_MENTAL_DISCIPLINE">
+    <description>
+      <p>You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on saving throws against the charmed and frightened conditions.</description>
+    </sheet>
+  </element>  
+    <element name="Custom Lineage" type="Grants" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
+</elements>

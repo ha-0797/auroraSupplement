@@ -12,11 +12,12 @@
         <rules>
             <grant type="Grants" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
             <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Dwarf 2" number="1" />
+            <select type="Racial Trait" name="Ability Score Increase (Custom Lineage)" supports="Custom Dwarf 1" number="1" />
             <select type="Proficiency" name="Custom Tool Proficiencies" supports="Custom Tools" />
-            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons 1" number="1" />
-            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons 2" number="1" />
-            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons 3" number="1" />
-            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons 4" number="1" />
+            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons" number="1" />
+            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons" number="1" />
+            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons" number="1" />
+            <select type="Proficiency" name="Custom Weapon Proficiencies" supports="Custom Weapons" number="1" />
         </rules>
     </element>
     <element name="Tool Proficiency" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_TOOLS">
@@ -34,66 +35,17 @@
         </rules>
     </element>
     <element name="Weapons Proficiency 1" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_1">
-        <supports>Custom Weapons 1</supports>
+        <supports>Custom Weapons</supports>
         <description>Proficiency in one tool of your choice</description>
         <rules>
             <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Weapon" number="1" />
         </rules>
     </element>
     <element name="Tool Proficiency 1" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_TOOLS_1">
-        <supports>Custom Weapons 1</supports>
-        <description>Proficiency in one tool of your choice</description>
-        <rules>
-            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" number="1" />
-        </rules>
-    </element>
-    <element name="Weapons Proficiency 2" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_2">
-        <supports>Custom Weapons 2</supports>
-        <description>Proficiency in one tool of your choice</description>
-        <rules>
-            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Weapon" number="1" />
-        </rules>
-    </element>
-    <element name="Tool Proficiency 2" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_TOOLS_2">
-        <supports>Custom Weapons 2</supports>
-        <description>Proficiency in one tool of your choice</description>
-        <rules>
-            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" number="1" />
-        </rules>
-    </element>
-    <element name="Weapons Proficiency 3" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_3">
-        <supports>Custom Weapons 3</supports>
-        <description>Proficiency in one tool of your choice</description>
-        <rules>
-            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Weapon" number="1" />
-        </rules>
-    </element>
-    <element name="Tool Proficiency 3" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_TOOLS_3">
-        <supports>Custom Weapons 3</supports>
-        <description>Proficiency in one tool of your choice</description>
-        <rules>
-            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" number="1" />
-        </rules>
-    </element>
-    <element name="Weapons Proficiency 4" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_4">
-        <supports>Custom Weapons 4</supports>
-        <description>Proficiency in one tool of your choice</description>
-        <rules>
-            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Weapon" number="1" />
-        </rules>
-    </element>
-    <element name="Tool Proficiency 4" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_WEAPONS_TOOLS_4">
-        <supports>Custom Weapons 4</supports>
-        <description>Proficiency in one tool of your choice</description>
-        <rules>
-            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" number="1" />
-        </rules>
-    </element>
-    <element name="Tool Proficiency" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_TOOLS">
         <supports>Custom Weapons</supports>
         <description>Proficiency in one tool of your choice</description>
         <rules>
-            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tools" />
+            <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" number="1" />
         </rules>
     </element>
     <element name="Tool Proficiency" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE_TOOLS">
@@ -103,7 +55,7 @@
             <select type="Proficiency" name="Dwarven Tool Proficiency" supports="Tool" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_SUB_RACE_DWARF_CUSTOM_STRENGTH_TWO">
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUB_RACE_DWARF_CUSTOM_STRENGTH_TWO">
         <compendium display="false" />
         <supports>Custom Dwarf 2</supports>
         <description>
@@ -114,7 +66,7 @@
             <stat name="strength" value="2" alt="Custom Dwarf" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_SUB_RACE_DWARF_CUSTOM_DEXTERITY_TWO">
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUB_RACE_DWARF_CUSTOM_DEXTERITY_TWO">
         <compendium display="false" />
         <supports>Custom Dwarf 2</supports>
         <description>
@@ -125,7 +77,7 @@
             <stat name="dexterity" value="2" alt="Custom Dwarf" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_SUB_RACE_DWARF_CUSTOM_CONSTITUTION_TWO">
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUB_RACE_DWARF_CUSTOM_CONSTITUTION_TWO">
         <compendium display="false" />
         <supports>Custom Dwarf 2</supports>
         <description>
@@ -136,7 +88,7 @@
             <stat name="constitution" value="2" alt="Custom Dwarf" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_SUB_RACE_DWARF_CUSTOM_WISDOM_TWO">
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUB_RACE_DWARF_CUSTOM_WISDOM_TWO">
         <compendium display="false" />
         <supports>Custom Dwarf 2</supports>
         <description>
@@ -147,7 +99,7 @@
             <stat name="wisdom" value="2" alt="Custom Dwarf" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_SUB_RACE_DWARF_CUSTOM_INTELLIGENCE_TWO">
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUB_RACE_DWARF_CUSTOM_INTELLIGENCE_TWO">
         <compendium display="false" />
         <supports>Custom Dwarf 2</supports>
         <description>
@@ -158,7 +110,7 @@
             <stat name="intelligence" value="2" alt="Custom Dwarf" />
         </rules>
     </element>
-    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" id="ID_SUB_RACE_DWARF_CUSTOM_CHARISMA_TWO">
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_SUB_RACE_DWARF_CUSTOM_CHARISMA_TWO">
         <compendium display="false" />
         <supports>Custom Dwarf 2</supports>
         <description>
@@ -168,6 +120,72 @@
         <rules>
             <stat name="charisma" value="2" alt="Custom Dwarf" />
         </rules>
-    </element>	
+    </element>
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUB_RACE_DWARF_CUSTOM_CHARISMA_TWO" id="ID_SUB_RACE_DWARF_CUSTOM_CHARISMA_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Charisma score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUB_RACE_DWARF_CUSTOM_WISDOM_TWO" id="ID_SUB_RACE_DWARF_CUSTOM_WISDOM_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Wisdom score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUB_RACE_DWARF_CUSTOM_INTELLIGENCE_TWO" id="ID_SUB_RACE_DWARF_CUSTOM_INTELLIGENCE_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Intelligence score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUB_RACE_DWARF_CUSTOM_CONSTITUTION_TWO" id="ID_SUB_RACE_DWARF_CUSTOM_CONSTITUTION_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Constitution score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUB_RACE_DWARF_CUSTOM_DEXTERITY_TWO" id="ID_SUB_RACE_DWARF_CUSTOM_DEXTERITY_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Dexterity score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Tasha's Cauldron of Everything" requirement="!ID_SUB_RACE_DWARF_CUSTOM_STRENGTH_TWO" id="ID_SUB_RACE_DWARF_CUSTOM_STRENGTH_ONE">
+        <compendium display="false" />
+        <supports>Custom Dragonborn 1</supports>
+        <description>
+            <p>Your Strength score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" alt="Custom Dragonborn" />
+        </rules>
+    </element>  
 	<element name="Custom Lineage" type="Grants" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_GRANTS_CUSTOM_LINEAGE" />
 </elements>
