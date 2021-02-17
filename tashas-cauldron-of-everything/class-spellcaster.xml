@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Spellcaster Sidekick</name>
+		<description>Spellcaster Sidekick.</description>
+		<update version="0.2.5">
+			<file name="class-spellcaster.xml" url="https://raw.githubusercontent.com/ha-0797/auroraSupplement/master/tashas-cauldron-of-everything/class-spellcaster.xml" />
+		</update>
+	</info>
+
+	<element name="Spellcaster" type="Class" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_SPELLCASTER">
+		<description>
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_SPELLCASTING" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_POTENT_CANTRIPS" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_EMPOWERED_SPELL" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_FOCUSED_CASTING" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_ABILITYSCOREIMPROVEMENT" />
+		</description>
+		<setters>
+			<set name="short">An ally who aides the party through spells.</set>
+			<set name="hd">d6</set>
+		</setters>
+		<rules>
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_SPELLCASTING" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_POTENT_CANTRIPS" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_EMPOWERED_SPELL" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_FOCUSED_CASTING" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_ABILITYSCOREIMPROVEMENT" level="4" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiencies" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES">
+		<description>
+			<p>The sidekick gains proficiency in one saving throw of your choice: Wisdom, Intelligence, or Charisma.</p>
+			<p class="indent">In addition, the sidekick gains proficiency in two skills of your choice from the following list: Arcana, History, Insight, Investigation, Medicine, Performance, Persuasion, and Religion.</p>
+			<p class="indent">The sidekick gains proficiency with light armor, and if it is a humanoid or has a simple or martial weapon in its stat block, it also gains proficiency with all simple weapons.</p>
+		</description>
+		<rules>
+			<select type="Proficiency" name="Bonus Skill Proficiencies" supports="spellcaster skill proficiency" number="2" />
+			<select type="Proficiency" name="Bonus Saving Throw Proficiencies" supports="spellcaster saving throw proficiency" number="1" />	
+		</rules>
+	</element>
+	<element name="Spellcasting" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_SPELLCASTING">
+		<rules>
+			<select name="Role" type="Class Feature" source="Tasha's Cauldron of Everything" supports="Roles"/>
+		</rules>
+	</element>
+	<element name="Potent Cantrip" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_POTENT_CANTRIPS">
+		<description>The sidekick can add its spellcasting ability modifier to the damage it deals with any cantrip.</description>
+		<sheet>
+			<description>The sidekick can add +{{intelligence:modifier}} to the damage it deals with any cantrip.</description>
+		</sheet>
+	</element>
+	<element name="Empowered Spells" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_EMPOWERED_SPELL">
+		<description>Choose one school of magic. Whenever the sidekick casts a spell of that school by expending a spell slot, the sidekick can add its spellcasting ability modifier to the spell's damage roll or healing roll, if any.</description>
+		<sheet>
+			<description>Choose one school of magic. Whenever the sidekick casts a spell of that school by expending a spell slot, the sidekick can add +{{intelligence:modifier}} to the spell's damage roll or healing roll, if any.</description>
+		</sheet>
+	</element>
+	<element name="Focused Casting" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_FOCUSED_CASTING">
+		<description>Taking damage can't break the sidekicks concentration on a spell.</description>
+		<sheet>
+			<description>Taking damage can't break the sidekicks concentration on a spell.</description>
+		</sheet>
+	</element>
+	<element name="Mage" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASS_FEATURE_SPELLCASTING_MAGE">
+		<supports>Roles</supports>
+		<spellcasting name="Wizard" ability="Intelligence" prepare="true">
+			<list>Wizard</list>
+		</spellcasting>
+		<rules>
+			<stat name="wizard:spellcasting:slots:1" value="2" level="1" />
+			<stat name="wizard:spellcasting:slots:1" value="1" level="3" />
+			<stat name="wizard:spellcasting:slots:1" value="1" level="5" />
+			<stat name="wizard:spellcasting:slots:2" value="2" level="5" />
+			<stat name="wizard:spellcasting:slots:2" value="1" level="7" />
+			<stat name="wizard:spellcasting:slots:3" value="2" level="9" />
+			<stat name="wizard:spellcasting:slots:3" value="1" level="11" />
+			<stat name="wizard:spellcasting:slots:4" value="1" level="13" />
+			<stat name="wizard:spellcasting:slots:4" value="1" level="15" />
+			<stat name="wizard:spellcasting:slots:4" value="1" level="17" />
+			<stat name="wizard:spellcasting:slots:5" value="1" level="17" />
+			<stat name="wizard:spellcasting:slots:5" value="1" level="19" />
+
+			<select type="Spell" name="Cantrip (Wizard)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Cantrip (Wizard)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Cantrip (Wizard)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Wizard" />
+
+			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), 1" level="1" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" number="1" spellcasting="Wizard" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_ABILITYSCOREIMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 18th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Spellcaster 4)" supports="Improvement Option,Spellcaster,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Spellcaster 8)" supports="Improvement Option,Spellcaster,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Spellcaster 12)" supports="Improvement Option,Spellcaster,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Spellcaster 16)" supports="Improvement Option,Spellcaster,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Spellcaster 18)" supports="Improvement Option,Spellcaster,19" level="18" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES_WISDOM">
+		<supports>spellcaster saving throw proficiency</supports>
+		<rules>
+			<grant name="Arcana" type="Proficiency" id="ID_WOTC_ID_PROFICIENCY_SAVINGTHROW_WISDOM"/>
+		</rules>
+	</element>
+	<element name="Intelligence" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES_INTELLIGENCE">
+		<supports>spellcaster saving throw proficiency</supports>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE"/>
+		</rules>
+	</element>
+	<element name="Charisma" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES_CHARISMA">
+		<supports>spellcaster saving throw proficiency</supports>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA"/>
+		</rules>
+	</element>
+	<element name="Arcana" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES_ARCANA">
+		<supports>spellcaster skill proficiency</supports>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SKILL_ARCANA"/>
+		</rules>
+	</element>
+	<element name="History" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES_HISTORY">
+		<supports>spellcaster skill proficiency</supports>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY"/>
+		</rules>
+	</element>
+	<element name="Insight" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES_INSIGHT">
+		<supports>spellcaster skill proficiency</supports>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT"/>
+		</rules>
+	</element>
+	<element name="Investigation" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES_INVESTIGATION">
+		<supports>spellcaster skill proficiency</supports>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION"/>
+		</rules>
+	</element>
+	<element name="Medicine" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES_MEDICINE">
+		<supports>spellcaster skill proficiency</supports>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE"/>
+		</rules>
+	</element>
+	<element name="Performance" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES_PERFORMANCE">
+		<supports>spellcaster skill proficiency</supports>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE"/>
+		</rules>
+	</element>
+	<element name="Persuasion" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES_PERSUASION">
+		<supports>spellcaster skill proficiency</supports>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION"/>
+		</rules>
+	</element>
+	<element name="Religion" type="Proficiency" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_SPELLCASTER_BONUS_PROFICIENCIES_RELIGION">
+		<supports>spellcaster skill proficiency</supports>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION"/>
+		</rules>
+	</element>
+</elements>
