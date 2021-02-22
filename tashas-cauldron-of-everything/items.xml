@@ -157,7 +157,7 @@
 			<set name="type">Wandrous Item</set>
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">1</set>
-			<set name="attunement" addition="by an cleric or paladin">true</set>
+			<set name="attunement" addition="by an Wizard or paladin">true</set>
 		</setters>
 		<rules>
 			<stat name="spellcasting:attack" value="1" />
@@ -176,7 +176,7 @@
 			<set name="type">Wandrous Item</set>
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">2</set>
-			<set name="attunement" addition="by an cleric or paladin">true</set>
+			<set name="attunement" addition="by an Wizard or paladin">true</set>
 		</setters>
 		<rules>
 			<stat name="spellcasting:attack" value="2" />
@@ -195,7 +195,7 @@
 			<set name="type">Wandrous Item</set>
 			<set name="rarity">Very Rare</set>
 			<set name="enhancement">3</set>
-			<set name="attunement" addition="by an cleric or paladin">true</set>
+			<set name="attunement" addition="by an Wizard or paladin">true</set>
 		</setters>
 		<rules>
 			<stat name="spellcasting:attack" value="3" />
@@ -451,7 +451,7 @@
 			<set name="weight" lb="2">2 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="rarity">uncommon</set>
-			<set name="attunement" addition="by a cleric or paladin">true</set>
+			<set name="attunement" addition="by a Wizard or paladin">true</set>
 		</setters>
 	</element>
 	<element name="Feywild Shard" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_FEYWILD_SHARD">
@@ -504,12 +504,12 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ENLARGE_REDUCE" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" level="1"/>
-			<grant type="Spell" id="ID_PHB_SPELL_FLESH_TO_STONE" level="11"/>
-			<grant type="Spell" id="ID_PHB_SPELL_GASEOUS_FORM" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_WEAPON" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" level="7"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_ENLARGE_REDUCE" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_FEATHER_FALL" level="1"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_FLESH_TO_STONE" level="11"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_GASEOUS_FORM" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_MAGIC_WEAPON" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_POLYMORPH" level="7"/>
 		</rules>
 	</element>
 	<element name="Astronomical Archive" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ASTRONOMICAL_ARCHIVE">
@@ -532,13 +532,13 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_AUGURY" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" level="1"/>
-			<grant type="Spell" id="ID_PHB_SPELL_FIND_THE_PATH" level="11"/>
-			<grant type="Spell" id="ID_PHB_SPELL_LOCATE_OBJECT" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_DIVINATION" level="7"/>
-			<grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" level="7"/>
-			<grant type="Spell" id="ID_PHB_SPELL_FORESIGHT" level="17"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_AUGURY" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_FEATHER_FALL" level="1"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_FIND_THE_PATH" level="11"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_LOCATE_OBJECT" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_DIVINATION" level="7"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_LOCATE_CREATURE" level="7"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_FORESIGHT" level="17"/>
 		</rules>
 	</element>
 	<element name="Atlas of Endless Horizons" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ATLAS_OF_ENDLESS_HORIZONS">
@@ -561,13 +561,13 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_GATE" level="11"/>
-			<grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR" level="7"/>
-			<grant type="Spell" id="ID_PHB_SPELL_GATE" level="17"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_PLANE_SHIFT" level="13"/>
-			<grant type="Spell" id="ID_PHB_SPELL_TELEPORTATION_CIRCLE" level="9"/>
-			<grant type="Spell" id="ID_PHB_SPELL_WORD_OF_RECALL" level="11"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_ARCANE_GATE" level="11"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_DIMENSION_DOOR" level="7"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_GATE" level="17"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_MISTY_STEP" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_PLANE_SHIFT" level="13"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_TELEPORTATION_CIRCLE" level="9"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_WORD_OF_RECALL" level="11"/>
 		</rules>
 	</element>
 	<element name="Duplicitous Manuscript" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_DUPLICITOUS_MANUSCRIPT">
@@ -591,13 +591,13 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN" level="7"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MAJOR_IMAGE" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MISLEAD" level="9"/>
-			<grant type="Spell" id="ID_PHB_SPELL_NYSTULS_MAGIC_AURA" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_PHANTASMAL_FORCE" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_SILENT_IMAGE" level="1"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN" level="7"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_MAJOR_IMAGE" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_MIRROR_IMAGE" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_MISLEAD" level="9"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_NYSTULS_MAGIC_AURA" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_PHANTASMAL_FORCE" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_SILENT_IMAGE" level="1"/>
 		</rules>
 	</element>
 	<element name="Heart Weaver's Primer" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_HEART_WEAVERS_PRIMER">
@@ -620,13 +620,13 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ANTIPATHY_SYMPATHY" level="15"/>
-			<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" level="1"/>
-			<grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" level="9"/>
-			<grant type="Spell" id="ID_PHB_SPELL_ENTHRALL" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_HYPNOTIC_PATTERN" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" level="9"/>
-			<grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_ANTIPATHY_SYMPATHY" level="15"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_CHARM_PERSON" level="1"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_DOMINATE_PERSON" level="9"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_ENTHRALL" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_HYPNOTIC_PATTERN" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_MODIFY_MEMORY" level="9"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_SUGGESTION" level="3"/>
 		</rules>
 	</element>
 	<element name="Libram of Souls and Flesh" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_LIBRE_OF_SOULS_AND_FLESH">
@@ -649,13 +649,13 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_CIRCLE_OF_DEATH" level="11"/>
-			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" level="1"/>
-			<grant type="Spell" id="ID_PHB_SPELL_FINGER_OF_DEATH" level="13"/>
-			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_SUMMON_UNDEAD" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_VAMPIRIC_TOUCH" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_ANIMATE_DEAD" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_CIRCLE_OF_DEATH" level="11"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_FALSE_LIFE" level="1"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_FINGER_OF_DEATH" level="13"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_SUMMON_UNDEAD" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_VAMPIRIC_TOUCH" level="5"/>
 		</rules>
 	</element>
 	<element name="Fulminating Treatise" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_FULMINATING_TREATISE">
@@ -678,13 +678,13 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_CONTINGENCY" level="11"/>
-			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_LEOMUNDS_TINY_HUT" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_MISSLE" level="1"/>
-			<grant type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" level="1"/>
-			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" level="9"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_CONTINGENCY" level="11"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_FIREBALL" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_GUST_OF_WIND" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_LEOMUNDS_TINY_HUT" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_MAGIC_MISSLE" level="1"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_THUNDERWAVE" level="1"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_WALL_OF_FORCE" level="9"/>
 		</rules>
 	</element>
 	<element name="Planecaller's Codex" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_FULMINATING_TREATISE">
@@ -707,12 +707,12 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="7"/>
-			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" level="1"/>
-			<grant type="Spell" id="ID_PHB_SPELL_GATE" level="17"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_CIRCLE" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_PLANAR_BINDING" level="9"/>
-			<grant type="Spell" id="ID_PHB_SPELL_SUMMON_ELEMENTAL" level="7"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_BANISHMENT" level="7"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_FIND_FAMILIAR" level="1"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_GATE" level="17"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_MAGIC_CIRCLE" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_PLANAR_BINDING" level="9"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_SUMMON_ELEMENTAL" level="7"/>
 		</rules>
 	</element>
 	<element name="Protective Verses" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_PROTECTIVE_VERSES">
@@ -735,13 +735,13 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_LOCK" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_GLOBE_OF_INVOLNABILITY" level="11"/>
-			<grant type="Spell" id="ID_PHB_SPELL_GLYPH_OF_WARDING" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM" level="7"/>
-			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="1"/>
-			<grant type="Spell" id="ID_PHB_SPELL_SYMBOL" level="13"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_ARCANE_LOCK" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_DISPEL_MAGIC" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_GLOBE_OF_INVOLNABILITY" level="11"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_GLYPH_OF_WARDING" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM" level="7"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="1"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_SYMBOL" level="13"/>
 		</rules>
 	</element>
 	<element name="Protective Verses" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_PROTECTIVE_VERSES">
@@ -764,16 +764,16 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
-			<grant type="Spell" id="ID_TCOE_SPELL_MIND_SLIVER" />
-			<grant type="Spell" id="ID_PHB_SPELL_MESSAGE" />
-			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" level="3"/>
-			<grant type="Spell" id="ID_TCOE_SPELL_INTELLECT_FORTRESS" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="9"/>
-			<grant type="Spell" id="ID_PHB_SPELL_SENDING" level="5"/>
-			<grant type="Spell" id="ID_PHB_SPELL_TELEKINESIS" level="9"/>
-			<grant type="Spell" id="ID_TCOE_SPELL_TASHAS_MIND_WHIP" level="3"/>
-			<grant type="Spell" id="ID_PHB_SPELL_TENSERS_FLOATING_DISK" level="1"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_MAGE_HAND" />
+			<grant type="Spell" spellcasting="Wizard" id="ID_TCOE_SPELL_MIND_SLIVER" />
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_MESSAGE" />
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_DETECT_THOUGHTS" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_TCOE_SPELL_INTELLECT_FORTRESS" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="9"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_SENDING" level="5"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_TELEKINESIS" level="9"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_TCOE_SPELL_TASHAS_MIND_WHIP" level="3"/>
+			<grant type="Spell" spellcasting="Wizard" id="ID_PHB_SPELL_TENSERS_FLOATING_DISK" level="1"/>
 		</rules>
 	</element>
 	<element name="Shadowfell Shard" type="Magic Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_SHADOWFELL_SHARD">
