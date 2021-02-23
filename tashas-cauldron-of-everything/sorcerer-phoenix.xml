@@ -52,16 +52,16 @@
 			</table>
 		</description>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="1" spellcasting="Sorcerer" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="1" spellcasting="Sorcerer" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FLAMING SPHERE" level="3" spellcasting="Sorcerer" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SCORCHING_RAY" level="3" spellcasting="Sorcerer" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5" spellcasting="Sorcerer" prepared="true" />
-			<grant type="Spell" id="ID_XGE_SPELL_MELFS_MINUTE_METEORS" level="5" spellcasting="Sorcerer" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" spellcasting="Sorcerer" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Sorcerer" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_RARYS_FLAME_STRIKE" level="9" spellcasting="Sorcerer" prepared="true" />
-			<grant type="Spell" id="ID_XGE_SPELL_IMMOLATION" level="9" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="1" spellcasting="Sorcerer"  />
+			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="1" spellcasting="Sorcerer"  />
+			<grant type="Spell" id="ID_PHB_SPELL_FLAMING_SPHERE" level="3" spellcasting="Sorcerer"  />
+			<grant type="Spell" id="ID_PHB_SPELL_SCORCHING_RAY" level="3" spellcasting="Sorcerer"  />
+			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5" spellcasting="Sorcerer"  />
+			<grant type="Spell" id="ID_XGTE_SPELL_MELFS_MINUTE_METEORS" level="5" spellcasting="Sorcerer"  />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" spellcasting="Sorcerer"  />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Sorcerer"  />
+			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9" spellcasting="Sorcerer"  />
+			<grant type="Spell" id="ID_XGTE_SPELL_IMMOLATION" level="9" spellcasting="Sorcerer"  />
 		</rules>
 	</element>
 	<element name="Ignite" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PHOENIX_IGNITE">
@@ -84,7 +84,7 @@
 			<p>You can use this feature a number of times equal to you proficiency modifier per long rest.</p>
 		</description>
 		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
-			<description>You shed bright light in a 30-foot radius and dim light for an additional 30 feet for 1 minute. Any creature takes {{charisma:modifier}}fire damage if it hits you with a melee attack from within 5 feet of you or if it touches you. Whenever you roll fire damage on your turn, the roll gains a +{{charisma:modifier}} bonus.</description>
+			<description>You shed bright light in a 30-foot radius and dim light for an additional 30 feet for 1 minute. Any creature takes {{charisma:modifier}} fire damage if it hits you with a melee attack from within 5 feet of you or if it touches you. Whenever you roll fire damage on your turn, the roll gains a +{{charisma:modifier}} bonus.</description>
 		</sheet>
 	</element>
 	<element name="Phoenix Spark" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PHOENIX_PHOENIXSPARK">
@@ -113,7 +113,7 @@
 		</description>
 		<sheet>
 			<description>When you cast any spell of 1st level or higher from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of sorcery points equal to the spell's level.
-			If you cast the spell using sorcery points and the spell forces other creatures to make a saving throw, choose {{charisma:modifier}} of those creatures. The chosen creatures automtically succeed that saving throw.</description>
+			If you cast the spell using sorcery points and the spell forces other creatures to make a saving throw, you can give one target of the spell disadvantage on its first saving throw made against the spell.</description>
 		</sheet>
 	</element>
 	<element name="Nourishing Fire" type="Archetype Feature" source="Tasha's Couldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_PHOENIX_NOURISHINGFIRE">
@@ -134,7 +134,7 @@
 			</ul>
 		</description>
 		<sheet>
-			<description>While under the effect of your Mantle of Flame feature, you gain additional benefits: You have a flying speed of 40 feet and can hover. You have resistance to all damage. If you use your Phoenix Spark, that feature deals an extra 20 fire damage to each creature.</description>
+			<description>When you activate your Mantle of Flame feature, you can spend 5 sorcery points to gain additional benefits: You have a flying speed of 40 feet and can hover. You have resistance to all damage. If you use your Phoenix Spark, that feature deals an extra 20 fire damage to each creature.</description>
 		</sheet>
         <rules>
             <stat name="speed:fly" value="40" bonus="base" />
